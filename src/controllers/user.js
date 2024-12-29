@@ -1,6 +1,7 @@
 const bcrypt = require('bcrypt')
 const jwt = require('jsonwebtoken')
 const User = require('../models/user')
+const UserData = require('../models/userData')
 
 exports.signup = async (req, res) => {
   const passwordRegex = /^(?=.*[A-Z])(?=.*\d).{6,}$/
@@ -20,7 +21,13 @@ exports.signup = async (req, res) => {
       createdAt: new Date().toISOString()
     })
 
+    const userData = new UserData({
+      userId: user._id,
+      lastUpdated: new Date().toISOString(),
+    })
+
     await user.save();
+    await userData.save()
     res.status(201).json({ message: 'User created!' });
     } catch (error) { 
       res.status(500).json({ error: error.message || 'Error creating user.' })
