@@ -10,6 +10,7 @@ const factionOrder = [
   'OrderOfSouls',
   'MerchantAlliance',
   'AthenasFortune',
+  'ReapersBones',
   'HuntersCall',
   'SeaDogs',
   'CreatorCrew',
