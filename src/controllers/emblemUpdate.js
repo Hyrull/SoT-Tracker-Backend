@@ -1,4 +1,4 @@
-const { fetchReputationData } = require('../services/emblemFetch')
+const { fetchReputationData } = require('../services/emblemFetchSoT')
 const User = require('../models/user')
 const UserData = require('../models/userData')
 
