@@ -20,7 +20,7 @@ app.use((req, res, next) => {
 })
 
 app.use((req, res, next) => {
-  console.log('Request received')
+  console.log('Request received with header: ', req.rawHeaders, ', to URL: ', req.url, ', with body: ', req.body,)
   next()
 })
 

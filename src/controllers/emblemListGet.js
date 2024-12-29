@@ -8,8 +8,6 @@ const emblemListGet = async (req, res) => {
       return res.status(404).json({ message: 'User not found' })
     }
 
-    console.log('User found:', user)
-
     return res.status(200).json(user.sotData)
   
   } catch (error) {
