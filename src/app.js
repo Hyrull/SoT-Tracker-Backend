@@ -1,7 +1,13 @@
+require('dotenv').config()
 const express = require('express')
+const mongoose = require('mongoose')
 const emblemRoutes = require('./routes/emblemRoutes')
 
 const app = express()
+
+mongoose.connect(process.env.MONGODB_LOGIN)
+.then(() => console.log('Connected to MongoDB!'))
+.catch((err) => console.log('Connection to MongoDB failed! Error: ', err))
 
 app.use(express.json())
 
