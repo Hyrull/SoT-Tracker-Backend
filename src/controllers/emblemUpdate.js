@@ -1,6 +1,6 @@
 const { fetchReputationData } = require('../services/emblemFetchSoT')
 const User = require('../models/user')
-const UserData = require('../models/userData')
+const UserData = require('../models/userData.js')
 
 // Controller to fetch the reputation data
 

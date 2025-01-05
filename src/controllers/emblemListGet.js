@@ -1,4 +1,4 @@
-const UserData = require('../models/userData')
+const UserData = require('../models/userData.js')
 
 const emblemListGet = async (req, res) => {
   const userId = req.auth.userId

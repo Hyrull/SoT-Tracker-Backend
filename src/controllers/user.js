@@ -1,7 +1,7 @@
 const bcrypt = require('bcrypt')
 const jwt = require('jsonwebtoken')
 const User = require('../models/user')
-const UserData = require('../models/userData')
+const UserData = require('../models/userData.js')
 
 exports.signup = async (req, res) => {
   const passwordRegex = /^(?=.*[A-Z])(?=.*\d).{6,}$/
