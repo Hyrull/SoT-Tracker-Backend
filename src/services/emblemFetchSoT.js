@@ -19,8 +19,14 @@ const fetchReputationData = async (ratToken) => {
 
     return response.data
   } catch (err) {
-    console.error('Error fetching reputation data:', err)
-    throw new Error('Error fetching reputation data')
+    if (err.response && err.response.status === 302 && err.response.headers.location?.includes('/logout')
+    ) {
+      console.error('Redirect loop detected! Out of dtae rat token: ', err)
+      throw new Error('Invalid rat token. Please update it.')
+      } else {
+      console.error('Error fetching reputation data:', err)
+      throw new Error('Error fetching reputation data')
+    }
   }
 }
 
