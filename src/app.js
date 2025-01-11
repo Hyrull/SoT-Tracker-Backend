@@ -19,11 +19,6 @@ app.use((req, res, next) => {
   next()
 })
 
-app.use((req, res, next) => {
-  console.log('Request received with header: ', req.rawHeaders, ', to URL: ', req.url, ', with body: ', req.body,)
-  next()
-})
-
 // ROUTES
 app.use('/api/emblems', emblemRoutes)
 app.use('/api/auth', userRoutes)
