@@ -71,7 +71,13 @@ const emblemUpdate = async (req, res) => {
   res.status(201).json({ message: 'Data updated successfully!' })
 
   } catch (err) {
-    res.status(500).json({ message: 'Error fetching reputation data!' })
+    if (err.type == 'InvalidRatToken') {
+      res.status(401).json({ error: err.message})
+    } else if (err.type == 'FetchError') {
+      res.status(500).json({ error: err.message })
+    } else {
+      res.status(500).json({ error: "An unknown error occured." })
+    }
   }
 }
 
