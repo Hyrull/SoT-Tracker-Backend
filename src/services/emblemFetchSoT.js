@@ -14,7 +14,8 @@ const fetchReputationData = async (ratToken) => {
       headers: {
         Cookie: `rat=${ratToken}`,
         Referer: 'https://www.seaofthieves.com/'
-      }
+      },
+      maxRedirects: 0,
     })
 
     return response.data
