@@ -4,8 +4,8 @@
       "Emblems": [
         {
           "DisplayName": "Hoarder of Treasured Tears",
-          "UnlockType": "atCompletion",
-          "Unlocks:": "Rewards the 'Hoarder of Treasured Tears' title."
+          "rewardType": "atCompletion",
+          "reward:": "Rewards the 'Hoarder of Treasured Tears' title."
         }
       ]
     }
