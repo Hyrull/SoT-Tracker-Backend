@@ -5,7 +5,7 @@
         {
           "DisplayName": "Hoarder of Treasured Tears",
           "rewardType": "atCompletion",
-          "reward:": "Rewards the 'Hoarder of Treasured Tears' title."
+          "reward": "Rewards the 'Hoarder of Treasured Tears' title."
         }
       ]
     }
