@@ -1,0 +1,13 @@
+{
+  "GoldHoarders": {
+    "Emblems": {
+      "Emblems": [
+        {
+          "DisplayName": "Hoarder of Treasured Tears",
+          "UnlockType": "atCompletion",
+          "Unlocks:": "Rewards the 'Hoarder of Treasured Tears' title."
+        }
+      ]
+    }
+  }
+}

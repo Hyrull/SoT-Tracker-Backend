@@ -1,6 +1,9 @@
 const { fetchReputationData } = require('../services/emblemFetchSoT')
 const User = require('../models/user')
 const UserData = require('../models/userData.js')
+const _ = require('lodash')
+
+const unlocks = require ('../unlocks.json')
 
 // Controller to fetch the reputation data
 
@@ -41,9 +44,23 @@ const emblemUpdate = async (req, res) => {
       return res.status(400).json({ message: "No data returned from the API." });
     }
 
+    // Merge the data with the unlocks.json file (Lodash)
+    const mergeEmblems = (objValue, srcValue) => {
+      if (Array.isArray(objValue) && Array.isArray(srcValue)) {
+        return objValue.map((emblem) => {
+          // Find matching emblem in unlocks by DisplayName
+          const match = srcValue.find((e) => e.DisplayName === emblem.DisplayName);
+          return match ? { ...emblem, ...match } : emblem;
+        });
+      }
+    };
 
+    // Perform deep merge with custom handling for arrays
+    const mergedData = _.mergeWith({}, data, unlocks, mergeEmblems);
+
+    console.log('Data fetched. Sorting data.')
     // Convert the data object into an array of [factionName, factionData] pairs so we can sort it
-    const factionsArray = Object.entries(data);
+    const factionsArray = Object.entries(mergedData);
     // Sort the array based on the predefined order
     const sortedFactionsArray = factionsArray.sort(([keyA], [keyB]) => {
       const indexA = factionOrder.indexOf(keyA) !== -1 ? factionOrder.indexOf(keyA) : Infinity;
@@ -52,6 +69,7 @@ const emblemUpdate = async (req, res) => {
     });
     // Convert the sorted array back into an object
     const sortedData = Object.fromEntries(sortedFactionsArray);
+
 
     // Update the user's data in the database
    const userData = await UserData.findOne({ userId: req.auth.userId })
