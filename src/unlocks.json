@@ -5,7 +5,33 @@
         {
           "DisplayName": "Hoarder of Treasured Tears",
           "rewardType": "atCompletion",
-          "reward": "Rewards the 'Hoarder of Treasured Tears' title."
+          "reward": "Grade 5: Rewards the 'Hoarder of Treasured Tears' title."
+        },
+        {
+          "DisplayName": "Worthy Emissary of Gold",
+          "rewardType": "perGrade",
+          "reward_graded": [
+            {
+              "grade": 1,
+              "reward": "Grade 1 reward"
+            },
+            {
+              "grade": 2,
+              "reward": "Grade 2 reward"
+            },
+            {
+              "grade": 3,
+              "reward": "Grade 3 reward"
+            },
+            {
+              "grade": 4,
+              "reward": "Grade 4: This is a longer string of text that shows all the unlocks that this super commendations grants. Is it long enough? It may be."
+            },
+            {
+              "grade": 5,
+              "reward": "Grade 5 reward"
+            }
+          ]
         }
       ]
     }
