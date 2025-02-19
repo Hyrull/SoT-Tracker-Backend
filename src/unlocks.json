@@ -1,37 +1,2550 @@
 {
+  "TallTales": {
+    "Campaigns": {
+      "maiden-voyage": {
+        "Emblems": [
+          {
+            "DisplayName": "Unto the Horizon",
+            "rewardType": "atCompletion",
+            "reward": "Rewards the Maiden Voyager Title. Unlocks the Pirate Lord Jacket in the Clothing Chest."
+          },
+          {
+            "DisplayName": "The Adventure Begins...",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the Magpie’s Fortune Sails in the Ship Customization Chest."
+          }
+        ]
+      },
+      "1.-the-journey-to-mêlée-island": {
+        "Emblems": [
+          {
+            "DisplayName": "The Journey to Mêlée Island",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the Legend of Monkey Island Figurines in the Ship Customisation Chest, and the Tavern Chef's Uniform in the Clothing Chest."
+          },
+          {
+            "DisplayName": "Mêlée Island Investigator",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the 'Mêlée by Moonlight' in the Ship Customization Chest."
+          }
+        ]
+      },
+      "2.-the-quest-for-guybrush": {
+        "Emblems": [
+          {
+            "DisplayName": "The Quest for Guybrush",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the Idol o' Many Hands in the Ship Customization Chest, and the Circus Superstar Costume in Clothing Chest."
+          },
+          {
+            "DisplayName": "Legendary Trial Master",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the Governor Guybrush Portrait in the Ship Customization Chest."
+          }
+        ]
+      },
+      "3.-the-lair-of-lechuck": {
+        "Emblems": [
+          {
+            "DisplayName": "The Lair of LeChuck",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the Burning Blade Cutlass and the The Legend of Monkey Island Cutlass in the Armoury."
+          },
+          {
+            "DisplayName": "Do the Monkey!",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the LeChuck Portrait in the Ship Customization Chest."
+          },
+          {
+            "DisplayName": "Legend of Monkey Island",
+            "rewardType": "atCompletion",
+            "reward":  "Rewards the Mighty Pirate Title. Unlocks the Monkey Island Shanty."
+          }
+        ]
+      },
+      "1.-a-pirate's-life": {
+        "Emblems": [
+          {
+            "DisplayName": "A Pirate's Life",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the Cursed Captain's Hat in the Clothing Chest."
+          },
+          {
+            "DisplayName": "Mist and Memory",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the Cursed Captain's Sails in the Ship Customization Chest."
+          }
+        ]
+      },
+      "2.-the-sunken-pearl": {
+        "Emblems": [
+          {
+            "DisplayName": "The Sunken Pearl",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the Revenge of the Silver Blade Cutlass in the Armoury."
+          },
+          {
+            "DisplayName": "Pearl in the Dark",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the Revenge of the Silver Blade Capstan in the Ship Customization Chest."
+          }
+        ]
+      },
+      "3.-captains-of-the-damned": {
+        "Emblems": [
+          {
+            "DisplayName": "Captain Of The Damned",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the Tankard of the Damned in the Equipment Chest."
+          },
+          {
+            "DisplayName": "Captain of Haunted Waters",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the Concertina, Hurdy-Gurdy, Banjo, and Drum of the Damned in the Equipment Chest."
+          }
+        ]
+      },
+      "4.-dark-brethren": {
+        "Emblems": [
+          {
+            "DisplayName": "Dark Brethren",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the Pistol of Sunken Sorrow in the Armoury."
+          },
+          {
+            "DisplayName": "Fortress of Sorrow",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the Figurehead of Sunken Sorrow in the Ship Customization Chest."
+          }
+        ]
+      },
+      "5.-lords-of-the-sea": {
+        "Emblems": [
+          {
+            "DisplayName": "Lords of the Sea",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the Cannons of Sunken Sorrow in the Ship Customization Chest."
+          },
+          {
+            "DisplayName": "An Eternal Pirate Life",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the Hull of Sunken Sorrow in the Ship Customization Chest."
+          },
+          {
+            "DisplayName": "A Pirate's Life For Me",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the Yo Ho (A Pirate's Life) Shanty."
+          }
+        ]
+      },
+      "1.-the-shroudbreaker": {
+        "Emblems": [
+          {
+            "DisplayName": "The ShroudedBreaker",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the Pirate Lord Hat in the clothing chest."
+          },
+          {
+            "DisplayName": "A Sunken Legacy",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the Magpie's Wing Cannons in the ship customization chest."
+          }
+        ]
+      },
+      "2.-the-cursed-rogue": {
+        "Emblems": [
+          {
+            "DisplayName": "The Cursed Rogue",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the Briggsy's Sword in the Armoury."
+          },
+          {
+            "DisplayName": "Fateful Memories",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the Curse of the Order in the Vanity Chest."
+          }
+        ]
+      },
+      "3.-the-legendary-storyteller": {
+        "Emblems": [
+          {
+            "DisplayName": "The Legendary Storyteller",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the Briggsy's Hat in the Clothing Chest."
+          },
+          {
+            "DisplayName": "Sea of Dreams",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the Briggsy's Sails in the Ship Customization Chest."
+          }
+        ]
+      },
+      "4.-stars-of-a-thief": {
+        "Emblems": [
+          {
+            "DisplayName": "Stars of a Thief",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the Constellation Tattoo Set in the Vanity Chest."
+          },
+          {
+            "DisplayName": "The Stolen Sky",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the Ancient Spyglass in the Equipment Chest."
+          }
+        ]
+      },
+      "5.-wild-rose": {
+        "Emblems": [
+          {
+            "DisplayName": "Wild Rose",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the Rose's Compass in the Equipment Chest."
+          },
+          {
+            "DisplayName": "Always Yours",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the Wild Rose Wheel in the Ship Customization Chest, along with the Thriving Wild Rose Set and Flourishing Wild Rose Set for purchase."
+          }
+        ]
+      },
+      "6.-art-of-the-trickster": {
+        "Emblems": [
+          {
+            "DisplayName": "Art of the Trickster",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the Rum Bottle Spyglass in the Equipment Chest."
+          },
+          {
+            "DisplayName": "The Trickster's Folly",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the Trapmaker's Capstan in the Ship Customization Chest."
+          }
+        ]
+      },
+      "7.-the-fate-of-the-morningstar": {
+        "Emblems": [
+          {
+            "DisplayName": "The Fate of the Morningstar",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the Morningstar Flag in the Ship Customization Chest."
+          },
+          {
+            "DisplayName": "The Unbroken Bond",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the Morningstar Sails in the Ship Customization Chest."
+          }
+        ]
+      },
+      "8.-revenge-of-the-morningstar": {
+        "Emblems": [
+          {
+            "DisplayName": "Revenge of the Morningstar",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the Morningstar Hull in the Ship Customization Chest."
+          },
+          {
+            "DisplayName": "The Morningstar Rises",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the Morningstar Figurehead in the Ship Customization Chest."
+          }
+        ]
+      },
+      "9.-shores-of-gold": {
+        "Emblems": [
+          {
+            "DisplayName": "Shores of Gold",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the Gold Hoarder Jacket in the Clothing Chest."
+          },
+          {
+            "DisplayName": "Gold and Glory",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the Gold Hoarder Figurehead in the Ship Customization Chest."
+          },
+          {
+            "DisplayName": "Seeker of Grand Adventure",
+            "rewardType": "atCompletion",
+            "reward": "Rewards the Sailor of the Shores of Gold Title.Unlocks the Shores of Gold Curse in the Vanity Chest."
+          }
+        ]
+      },
+      "the-seabound-soul": {
+        "Emblems": [
+          {
+            "DisplayName": "The Seabound Soul",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks Sword of Souls in the Armoury"
+          },
+          {
+            "DisplayName": "Fire and Ash",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks Sails of the Ashen Dragon in the Ship Customization Chest."
+          }
+        ]
+      },
+      "heart-of-fire": {
+        "Emblems": [
+          {
+            "DisplayName": "Heart of Fire",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the Hull of the Ashen Dragon in the Ship Customization Chest."
+          },
+          {
+            "DisplayName": "The Blackwyche Reborn",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks The Ashen Curse in the Vanity Chest."
+          }
+        ]
+      }
+    }
+  },
+  "BilgeRats": {
+    "Campaigns": {
+      "pirates-of-mischief": {
+        "Emblems": [
+          {
+            "DisplayName": "Pressgang Grappler",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the Admiral Grapple Gun for purchase."
+          },
+          {
+            "DisplayName": "Isle Hopper",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the Sea Dog Grapple Gun for purchase."
+          },
+          {
+            "DisplayName": "Governor of the Grapple Gun",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the Royal Sovereign Grapple Gun for purchase."
+          },
+          {
+            "DisplayName": "Mimic Me Mimic You",
+            "rewardType": "atCompletion",
+            "reward": "Rewards the Part of the Hive Title. Unlocks the Lucky Hand Blowpipe for purchase."
+          },
+          {
+            "DisplayName": "Rusty Bucket Bay",
+            "rewardType": "atCompletion",
+            "reward": "Required to unlock the Sea Master's Chest Disguise for purchase, in conjunction with Gold Raider."
+          },
+          {
+            "DisplayName": "Enticing Explosion",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the Shadow Tide Spyglass for purchase."
+          },
+          {
+            "DisplayName": "Diabolical Deviousness",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the Royal Sovereign Blowpipe for purchase."
+          },
+          {
+            "DisplayName": "Poisonous Pirate",
+            "rewardType": "atCompletion",
+            "reward": "Required to unlock the Treasure Chest Disguise for purchase, in conjunction with Repeat Offender."
+          },
+          {
+            "DisplayName": "Revenge at Last",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the Shadow Tide Flag for purchase."
+          },
+          {
+            "DisplayName": "Practically Poisonous in Every Way",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the Sea Dog Blowpipe for purchase."
+          },
+          {
+            "DisplayName": "The Power of Three",
+            "rewardType": "atCompletion",
+            "reward": "Required to unlock the Chest of the Damned Disguise for purchase, in conjunction with Scourge of the Damned (Grade 3)."
+          },
+          {
+            "DisplayName": "Bang-Bang-A-Boom",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the Shadow Tide Cannons for purchase."
+          },
+          {
+            "DisplayName": "Black Powder Hot Shot",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the Admiral Blowpipe for purchase."
+          },
+          {
+            "DisplayName": "Bewildering Blowpipes",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the Shadow Tide Hull for purchase. Required to unlock the Chest of Fortune Disguise for purchase, in conjunction with Fortune's Favour (Grade 3)."
+          },
+          {
+            "DisplayName": "Sneak Thief",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the Shadow Tide Wheel for purchase."
+          },
+          {
+            "DisplayName": "Creeping Commodore",
+            "rewardType": "atCompletion",
+            "reward": "Required to unlock the King's Chest Disguise for purchase, in conjunction with Treasures Fit For a King (Grade 3)."
+          },
+          {
+            "DisplayName": "Hidden in Plain Sight",
+            "rewardType": "atCompletion",
+            "reward": "Required to unlock the Stronghold Chest Disguise for purchase, in conjunction with Scourge of Skeleton Ships."
+          },
+          {
+            "DisplayName": "Found You",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the Shadow Tide Tattoo for purchase."
+          },
+          {
+            "DisplayName": "Demon of Disguise",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the Shadow Tide Figurehead for purchase."
+          },
+          {
+            "DisplayName": "Hanging with the Enemy",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the Shadow Tide Capstan for purchase."
+          },
+          {
+            "DisplayName": "Covert Corsair",
+            "rewardType": "atCompletion",
+            "reward": "Required to unlock the Coral Marauder's Chest Disguise for purchase, in conjunction with Conqueror of the Sunken Kingdom."
+          },
+          {
+            "DisplayName": "Secret Snare Setter",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the Shadow Tide Sails for purchase."
+          },
+          {
+            "DisplayName": "Pitfall Practitioner",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the Sai Throwing Knives for purchase. Required to unlock the Chest of Legends Disguise for purchase, in conjunction with Hoarder of Athena's Fortune."
+          },
+          {
+            "DisplayName": "Pirate of Magnificent Mischief",
+            "rewardType": "atCompletion",
+            "reward": "Rewards the Pirate of Magnificent Mischief Title. Unlocks the Monstrous Mask of Mayhem for purchase."
+          }
+        ]
+      },
+      "the-flame-rises": {
+        "Emblems": [
+          {
+            "DisplayName": "Orber of Souls",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the Cracked Orb Lantern for purchase."
+          },
+          {
+            "DisplayName": "Contended Constellations",
+            "rewardType": "perGrade",
+            "reward_graded": [
+              {
+                "grade": 1,
+                "reward": "Unlocks Obsidian Bone Crusher Belt and Boots for purchase."
+              },
+              {
+                "grade": 2,
+                "reward": "Unlocks Obsidian Bone Crusher Gloves for purchase."
+              },
+              {
+                "grade": 3,
+                "reward": "Unlocks Obsidian Bone Crusher Trousers for purchase."
+              },
+              {
+                "grade": 4,
+                "reward": "Unlocks Obsidian Bone Crusher Dress and Jacket for purchase."
+              },
+              {
+                "grade": 5,
+                "reward": "Unlocks Obsidian Bone Crusher Hat for purchase."
+              }
+            ]
+          },
+          {
+            "DisplayName": "Sizzling Sinker",
+            "rewardType": "perGrade",
+            "reward_graded": [
+              {
+                "grade": 1,
+                "reward": "Unlocks the Obsidian Bone Crusher Flag for purchase."
+              },
+              {
+                "grade": 2,
+                "reward": "Unlocks the Obsidian Bone Crusher Wheel and Capstan for purchase."
+              },
+              {
+                "grade": 3,
+                "reward": "Unlocks the Obsidian Bone Crusher Cannons for purchase."
+              },
+              {
+                "grade": 4,
+                "reward": "Unlocks the Obsidian Bone Crusher Hull and Sails for purchase."
+              },
+              {
+                "grade": 5,
+                "reward": "Unlocks the Obsidian Bone Crusher Figurehead for purchase."
+              }
+            ]
+          },
+          {
+            "DisplayName": "Secretive Stash",
+            "rewardType": "perGrade",
+            "reward_graded": [
+              {
+                "grade": 1,
+                "reward": "Unlocks the Obsidian Bone Crusher Cutlass for purchase."
+              },
+              {
+                "grade": 2,
+                "reward": "Unlocks the Obsidian Bone Crusher Pistol for purchase."
+              },
+              {
+                "grade": 3,
+                "reward": "Unlocks the Obsidian Bone Crusher Blunderbuss for purchase."
+              },
+              {
+                "grade": 4,
+                "reward": "Unlocks the Obsidian Bone Crusher Eye of Reach for purchase."
+              },
+              {
+                "grade": 5,
+                "reward": "Unlocks the Obsidian Bone Crusher Double Barrel Pistol and Throwing Knives for purchase."
+              }
+            ]
+          },
+          {
+            "DisplayName": "Captain Flameheart's Chosen",
+            "rewardType": "atCompletion",
+            "reward": "Rewards the Crew of the Burning Blade Title."
+          },
+          {
+            "DisplayName": "Hot Shot",
+            "rewardType": "atCompletion",
+            "reward": "Rewards the Hot Shot Title."
+          },
+          {
+            "DisplayName": "Feeding the Fire",
+            "rewardType": "perGrade",
+            "reward_graded": [
+              {
+                "grade": 1,
+                "reward": "Unlocks the Burning Blade Reborn Flag for purchase."
+              },
+              {
+                "grade": 2,
+                "reward": "Unlocks the Burning Blade Reborn Capstan and Wheel for purchase."
+              },
+              {
+                "grade": 3,
+                "reward": "Unlocks the Burning Blade Reborn Cannons for purchase."
+              },
+              {
+                "grade": 4,
+                "reward": "Unlocks the Burning Blade Reborn Hull and Sails for purchase."
+              },
+              {
+                "grade": 5,
+                "reward": "Unlocks the Burning Blade Reborn Figurehead for purchase."
+              }
+            ]
+          },
+          {
+            "DisplayName": "Bare Bones",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the Gold Trim Upper Body, Leather Upper Body, and Obsidian Captain's Upper Body for purchase."
+          },
+          {
+            "DisplayName": "Envious Envoys",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the Gold Trim Lower Body, Leather Lower Body, and Obsidian Captain's Lower Body for purchase."
+          },
+          {
+            "DisplayName": "Flaming Foes",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the Obsidian Branded Skull, Obsidian Arrow-Pierced Skull, Obsidian Shattered Mask Skull, and Obsidian Captain's Skull for purchase."
+          },
+          {
+            "DisplayName": "Ritual Recovery",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the Reaper's Bones Shattered Mask for purchase."
+          },
+          {
+            "DisplayName": "Playing the Part",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the Obsidian Bones and Seared Obsidian Bones for purchase."
+          },
+          {
+            "DisplayName": "Astral Protection",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the Ancient Skies Tattoo for purchase."
+          },
+          {
+            "DisplayName": "Friendship and Freedom",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the Veiled Bat Tattoo for purchase."
+          },
+          {
+            "DisplayName": "Lost Legend",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the 'Family Is the Real Treasure' ornament for purchase."
+          },
+          {
+            "DisplayName": "Defender of the Pirate's Life",
+            "rewardType": "atCompletion",
+            "reward": "Rewards the Defender of the Pirate's Life Title."
+          },
+          {
+            "DisplayName": "Loyalist of the Flame",
+            "rewardType": "atCompletion",
+            "reward": "Rewards the Loyalist of the Flame Title."
+          }
+        ]
+      },
+      "the-war-chest": {
+        "Emblems": [
+          {
+            "DisplayName": "Rib Roast",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the Admiral Double Barrel Pistol for purchase."
+          },
+          {
+            "DisplayName": "Blown-Away Bones",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the Sea Dog Double Barrel Pistol for purchase."
+          },
+          {
+            "DisplayName": "Double Barrel Master",
+            "rewardType": "atCompletion",
+            "reward": "Rewards the Double Barrel Master Title."
+          },
+          {
+            "DisplayName": "Title Fight",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the Admiral Throwing Knives for purchase."
+          },
+          {
+            "DisplayName": "Triple Threat Thrower",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the Cartographer Throwing Knives for purchase."
+          },
+          {
+            "DisplayName": "Back Bone Stabber",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the Sea Dog Throwing Knives for purchase."
+          },
+          {
+            "DisplayName": "Knife-Wielding Natural",
+            "rewardType": "atCompletion",
+            "reward": "Rewards the Knife-Wielding Natural Title."
+          },
+          {
+            "DisplayName": "Holey Wood Holes",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the Midnight Prowler Hull for purchase."
+          },
+          {
+            "DisplayName": "Head Beheaded",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the Midnight Prowler Flag for purchase."
+          },
+          {
+            "DisplayName": "Storm Sale",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the Midnight Prowler Sails for purchase."
+          },
+          {
+            "DisplayName": "Lightfoot Looter",
+            "rewardType": "atCompletion",
+            "reward": "Rewards the Lightfoot Looter Title."
+          },
+          {
+            "DisplayName": "Hang Time Maestro",
+            "rewardType": "atCompletion",
+            "reward": "Rewards the Hang Time Maestro Title."
+          },
+          {
+            "DisplayName": "The War Chest Champion",
+            "rewardType": "atCompletion",
+            "reward": "Rewards the War Chest Champion Title. Unlocks the Royal Sovereign Double Barrel Pistol and Royal Sovereign Throwing Knives for purchase."
+          }
+        ]
+      },
+      "treasures-of-adventure": {
+        "Emblems": [
+          {
+            "DisplayName": "Treasured Company",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the Cartographer Blunderbuss and Pistol for purchase."
+          },
+          {
+            "DisplayName": "Treasures Fit For a King",
+            "rewardType": "perGrade",
+            "reward_graded": [
+              {
+                "grade": 1,
+                "reward": "Unlocks the Cartographer Cutlass and Eye of Reach for purchase."
+              },
+              {
+                "grade": 2,
+                "reward": "Grade 3 is required to unlock the King's Chest Disguise for purchase, in conjunction with Creeping Commodore."
+              },
+              {
+                "grade": 3,
+                "reward": "Required to unlock the King's Chest Disguise for purchase, in conjunction with Creeping Commodore."
+              }
+            ]
+          }
+        ]
+      },
+      "the-skull-of-siren-song": {
+        "Emblems": [
+          {
+            "DisplayName": "Seeker of Siren Song",
+            "rewardType": "perGrade",
+            "reward_graded": [
+              {
+                "grade": 1,
+                "reward": "Unlocks the Skull of Siren Song Flag for purchase."
+              },
+              {
+                "grade": 2,
+                "reward": "Grade 5: Unlocks the Skull of Siren Song Sails for purchase."
+              },
+              {
+                "grade": 3,
+                "reward": "Grade 5: Unlocks the Skull of Siren Song Sails for purchase."
+              },
+              {
+                "grade": 4,
+                "reward": "Grade 5: Unlocks the Skull of Siren Song Sails for purchase."
+              },
+              {
+                "grade": 5,
+                "reward": "Unlocks the Skull of Siren Song Sails for purchase."
+              }
+            ]
+          },
+          {
+            "DisplayName": "Sentry of Siren Song",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the Skull of Siren Song Figurehead for purchase."
+          },
+          {
+            "DisplayName": "Saviour of Siren Song",
+            "rewardType": "perGrade",
+            "reward_graded": [
+              {
+                "grade": 1,
+                "reward": "Unlocks Captain Briggsy's Jacket for purchase."
+              },
+              {
+                "grade": 2,
+                "reward": "Grade 5: Unlocks Captain Briggsy's Mask for purchase."
+              },
+              {
+                "grade": 3,
+                "reward": "Grade 5: Unlocks Captain Briggsy's Mask for purchase."
+              },
+              {
+                "grade": 4,
+                "reward": "Grade 5: Unlocks Captain Briggsy's Mask for purchase."
+              },
+              {
+                "grade": 5,
+                "reward": "Unlocks Captain Briggsy's Mask for purchase."
+              }
+            ]
+          },
+          {
+            "DisplayName": "Composer of Siren Song",
+            "rewardType": "atCompletion",
+            "reward": "Rewards the Composer of Siren Song Title."
+          }
+        ]
+      },
+      "guilds-of-gold": {
+        "Emblems": [
+          {
+            "DisplayName": "Guild Initiate",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the ‘Hands of Friendship’ ornament for purchase."
+          },
+          {
+            "DisplayName": "Distinguished Guild Legend",
+            "rewardType": "perGrade",
+            "reward_graded": [
+              {
+                "grade": 1,
+                "reward": "Grade 2: Unlocks the Unbroken Bonds Flag for purchase."
+              },
+              {
+                "grade": 2,
+                "reward": "Unlocks the Unbroken Bonds Flag for purchase."
+              },
+              {
+                "grade": 3,
+                "reward": "Grade 4: Unlocks the Unbroken Bonds Wheel for purchase."
+              },
+              {
+                "grade": 4,
+                "reward": "Unlocks the Unbroken Bonds Wheel for purchase."
+              },
+              {
+                "grade": 5,
+                "reward": "Grade 6: Unlocks the Unbroken Bonds Capstan for purchase."
+              },
+              {
+                "grade": 6,
+                "reward": "Unlocks the Unbroken Bonds Capstan for purchase."
+              },
+              {
+                "grade": 7,
+                "reward": "Grade 8: Unlocks the Unbroken Bonds Cannons for purchase."
+              },
+              {
+                "grade": 8,
+                "reward": "Unlocks the Unbroken Bonds Cannons for purchase."
+              },
+              {
+                "grade": 9,
+                "reward": "Unlocks the Unbroken Bonds Hull for purchase."
+              },
+              {
+                "grade": 10,
+                "reward": "Unlocks the Unbroken Bonds Sails for purchase."
+              }
+            ]
+          },
+          {
+            "DisplayName": "Legendary Guild Chef",
+            "rewardType": "atCompletion",
+            "reward": "Rewards the Legendary Guild Chef Title."
+          },
+          {
+            "DisplayName": "Legendary Guild Cannoneer",
+            "rewardType": "atCompletion",
+            "reward": "Rewards the Legendary Guild Cannoneer Title."
+          },
+          {
+            "DisplayName": "Legendary Guild Navigator",
+            "rewardType": "atCompletion",
+            "reward": "Rewards the Legendary Guild Navigator Title."
+          },
+          {
+            "DisplayName": "Legendary Guild Helm",
+            "rewardType": "atCompletion",
+            "reward": "Rewards the Legendary Guild Helm Title."
+          },
+          {
+            "DisplayName": "Celebrated Guild Legend",
+            "rewardType": "atCompletion",
+            "reward": "Rewards the Celebrated Guild Legend Title. Unlocks the Unbroken Bonds Figurehead for purchase."
+          }
+        ]
+      },
+      "rowboat-revelry": {
+        "Emblems": [
+          {
+            "DisplayName": "Legend of the Oars",
+            "rewardType": "atCompletion",
+            "reward": "Rewards the Legend of the Oars Title."
+          }
+        ]
+      },
+      "chests-of-fortune": {
+        "Emblems": [
+          {
+            "DisplayName": "Fortune's Favour",
+            "rewardType": "perGrade",
+            "reward_graded": [
+              {
+                "grade": 1,
+                "reward": "Unlocks Fates of Fortune Figurehead, Hull, and Sails for purchase."
+              },
+              {
+                "grade": 2,
+                "reward": "Unlocks Fates of Fortune Set clothing for purchase."
+              },
+              {
+                "grade": 3,
+                "reward": "Unlocks Chest of Fortune Disguise (in conjunction with Bewildering Blowpipes), Fates of Fortune Cannons, Flag, Capstan, and Wheel for purchase."
+              },
+              {
+                "grade": 4,
+                "reward": "Unlocks Fates of Fortune Lantern, Spyglass, Compass, and Bucket for purchase."
+              },
+              {
+                "grade": 5,
+                "reward": "Unlocks Fates of Fortune Fishing Rod, Shovel, Pocket Watch, Tankard, and Speaking Trumpet for purchase."
+              },
+              {
+                "grade": 6,
+                "reward": "Unlocks Regal Fortune Figurehead, Hull, and Sails for purchase."
+              }
+            ]
+          },
+          {
+            "DisplayName": "Reaper's Riches",
+            "rewardType": "perGrade",
+            "reward_graded": [
+              {
+                "grade": 1,
+                "reward": "Unlocks Fates of Fortune Cutlass and Pistol for purchase."
+              },
+              {
+                "grade": 2,
+                "reward": "Unlocks Fates of Fortune Eyepatch, Hook, Pegleg, and Tattoo for purchase."
+              },
+              {
+                "grade": 3,
+                "reward": "Unlocks Fates of Fortune Blunderbuss, and Eye of Reach for purchase."
+              },
+              {
+                "grade": 4,
+                "reward": "Unlocks Fates of Fortune Banjo, and Drum for purchase."
+              },
+              {
+                "grade": 5,
+                "reward": "Unlocks Fates of Fortune Hurdy-Gurdy, Concertina, and Scar for purchase."
+              },
+              {
+                "grade": 6,
+                "reward": "Unlocks Regal Fortune Cutlass, Pistol and Double Barrel Pistol for purchase."
+              }
+            ]
+          }
+        ]
+      },
+      "sea-forts": {
+        "Emblems": [
+          {
+            "DisplayName": "From Whence They Came",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the From Whence They Came achievement."
+          },
+          {
+            "DisplayName": "What's Yours Is Mine",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the What's Yours Is Mine achievement."
+          },
+          {
+            "DisplayName": "Repeat Offender",
+            "rewardType": "atCompletion",
+            "reward": "Required to unlock the Treasure Chest Disguise for purchase, in conjunction with Poisonous Pirate."
+          },
+          {
+            "DisplayName": "Master Burglar",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the Master Burglar achievement."
+          }
+        ]
+      },
+      "buried-treasures": {
+        "Emblems": [
+          {
+            "DisplayName": "Hider of Secret Treasures",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks Party Boat Hat for purchase and the Hider of Secret Treasures achievement."
+          },
+          {
+            "DisplayName": "Hider of Sizeable Stashes",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks Party Boat Belt for purchase."
+          },
+          {
+            "DisplayName": "Seeker of Pirate Plunder",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks Party Boat Wheel for purchase and the Seeker of Pirate Plunder achievement. Rewards the Seeker of Lost Maps Title."
+          },
+          {
+            "DisplayName": "Master Cartographer",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks Party Boat Capstan for purchase and the Master Cartographer achievement."
+          },
+          {
+            "DisplayName": "Benevolent Benefactor",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks Party Boat Boots, Party Boat Shirt and Party Boat Trousers for purchase."
+          },
+          {
+            "DisplayName": "Stolen Secrets",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks Party Boat Cutlass, Midnight Blades Mask, Tied Hair and Twin-Plait Hair for purchase and the Stolen Secrets achievement."
+          },
+          {
+            "DisplayName": "Burying the Past",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks Midnight Blades Dress and Jacket for purchase."
+          },
+          {
+            "DisplayName": "Nothing To See Here",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks Midnight Blades Hat and Loose Trousers for purchase."
+          },
+          {
+            "DisplayName": "Heir of the Trickster",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks Party Boat Eye of Reach, Midnight Blades Eyepatch and Pegleg for purchase."
+          },
+          {
+            "DisplayName": "Small but Mighty",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks Party Boat Cannon for purchase."
+          },
+          {
+            "DisplayName": "Who Needs a Bigger Boat?",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the Who Needs A Bigger Boat? achievement."
+          },
+          {
+            "DisplayName": "Hunting Boat",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks Party Boat Flintlock for purchase."
+          },
+          {
+            "DisplayName": "Skies of Friendship",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks Party Boat Flag for purchase."
+          },
+          {
+            "DisplayName": "Gunpowder, Treason and Plot",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks Party Boat Blunderbuss and Figurehead for purchase."
+          },
+          {
+            "DisplayName": "Warning Shot",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks Party Boat Pegleg for purchase."
+          },
+          {
+            "DisplayName": "Night-Time Spectacular",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks Party Boat Hull and Sails for purchase and the Night-Time Spectacular achievement."
+          },
+          {
+            "DisplayName": "Down With the Ship",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks Midnight Blades Slim Trousers and Beard for purchase."
+          },
+          {
+            "DisplayName": "Seat Of Thieves",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks Party Boat Dress for purchase."
+          },
+          {
+            "DisplayName": "Sleepover",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks Midnight Blades Belt and Shirt for purchase and the Sleepover achievement."
+          },
+          {
+            "DisplayName": "Moment of Reflection",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks Party Boat Eyepatch for purchase."
+          },
+          {
+            "DisplayName": "A New Day",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks Party Boat Gloves for purchase."
+          },
+          {
+            "DisplayName": "Catching Rays",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks Midnight Blades Boots for purchase."
+          },
+          {
+            "DisplayName": "Adventurer's Eve",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks Midnight Blades Gloves for purchase."
+          },
+          {
+            "DisplayName": "Tribute Seat",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks Party Boat Hook for purchase and the Tribute Seat achievement."
+          },
+          {
+            "DisplayName": "Hot Seat",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks Midnight Blades Hook for purchase."
+          },
+          {
+            "DisplayName": "Critical Roll",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks Party Boat Jacket for purchase and the Critical Roll achievement."
+          },
+          {
+            "DisplayName": "Legend of Buried Treasures",
+            "rewardType": "atCompletion",
+            "reward": "Rewards the Beholder of Buried Treasures Title. Unlocks the Beholder of Buried Treasures achievement."
+          }
+        ]
+      },
+      "the-sunken-kingdom": {
+        "Emblems": [
+          {
+            "DisplayName": "Cartographer of the Sunken Kingdom",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks Sails of Sunken Sorrow and Flag of Sunken Sorrow for purchase."
+          },
+          {
+            "DisplayName": "Treasurer of the Sunken Kingdom",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the Scar of Sunken Sorrow."
+          },
+          {
+            "DisplayName": "Marauder of the Sunken Kingdom",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks Capstan of Sunken Sorrow and Wheel of Sunken Sorrow for purchase."
+          },
+          {
+            "DisplayName": "The Mysteries of the Sunken Kingdom",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks The Legend of the Sunken Kingdom Voyage for purchase from Larinna."
+          },
+          {
+            "DisplayName": "The Curse of the Sunken Kingdom",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the Curse of Sunken Sorrow."
+          },
+          {
+            "DisplayName": "Legend of the Sunken Kingdom",
+            "rewardType": "atCompletion",
+            "reward": "Rewards the Legend of the Sunken Kingdom Title."
+          }
+        ]
+      },
+      "ashen-winds": {
+        "Emblems": [
+          {
+            "DisplayName": "Hunter of Captain Grimm",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks Grimm’s Bane Tattoo and Scorched Forsaken Ashes Cutlass for purchase."
+          },
+          {
+            "DisplayName": "Hunter of Red Ruth",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks Ruth’s Bane Tattoo and Scorched Forsaken Ashes Flintlock for purchase."
+          },
+          {
+            "DisplayName": "Hunter of Old Horatio",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks Horatio’s Bane Tattoo and Scorched Forsaken Ashes Blunderbuss for purchase."
+          },
+          {
+            "DisplayName": "Hunter of Warden Chi",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks Chi’s Bane Tattoo and Scorched Forsaken Ashes Eye of Reach for purchase."
+          },
+          {
+            "DisplayName": "Banisher of the Flame",
+            "rewardType": "atCompletion",
+            "reward": "Rewards the Banisher of the Flame Title."
+          },
+          {
+            "DisplayName": "Hunter of the Ashen Winds",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the Sails of the Ashen Winds and Scorched Forsaken Ashes Instruments for purchase."
+          },
+          {
+            "DisplayName": "Captain of Ashen Bones",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the Scorched Forsaken Ashes Tools for purchase."
+          },
+          {
+            "DisplayName": "Warsmith of the Flame",
+            "rewardType": "atCompletion",
+            "reward": "Rewards the Warsmith of the Flame Title. Unlocks the Frostbite Cannon and Scorched Forsaken Ashes Ship Components for purchase."
+          }
+        ]
+      },
+      "ashen-treasures": {
+        "Emblems": [
+          {
+            "DisplayName": "Tome of Curses I",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks Hat of the Ashen Dragon for purchase."
+          },
+          {
+            "DisplayName": "Tome of Curses II",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks Jacket of the Ashen Dragon for purchase."
+          },
+          {
+            "DisplayName": "Tome of Curses III",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks Dress of the Ashen Dragon for purchase."
+          },
+          {
+            "DisplayName": "Tome of Curses IV",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks Hook of the Ashen Dragon for purchase."
+          },
+          {
+            "DisplayName": "Tome of Curses V",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks Pegleg of the Ashen Dragon for purchase."
+          },
+          {
+            "DisplayName": "Tome of Curses Collector",
+            "rewardType": "atCompletion",
+            "reward": "Rewards the Scholar of Curses Title. Unlocks the Hair, Cutlass, Heavy Sword and Rapier of the Ashen Dragon for purchase."
+          },
+          {
+            "DisplayName": "Tome of Power I",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks Spyglass of the Ashen Dragon for purchase."
+          },
+          {
+            "DisplayName": "Tome of Power II",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks Compass of the Ashen Dragon for purchase."
+          },
+          {
+            "DisplayName": "Tome of Power III",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks Shovel of the Ashen Dragon for purchase."
+          },
+          {
+            "DisplayName": "Tome of Power IV",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks Bucket of the Ashen Dragon for purchase."
+          },
+          {
+            "DisplayName": "Tome of Power V",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks Fishing Rod of the Ashen Dragon for purchase."
+          },
+          {
+            "DisplayName": "Tome of Power Collector",
+            "rewardType": "atCompletion",
+            "reward": "Rewards the Scholar of Power Title. Unlocks Pistol of the Ashen Dragon for purchase."
+          },
+          {
+            "DisplayName": "Tome of Fire I",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks Drum of the Ashen Dragon for purchase."
+          },
+          {
+            "DisplayName": "Tome of Fire II",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks Hurdy-Gurdy of the Ashen Dragon for purchase."
+          },
+          {
+            "DisplayName": "Tome of Fire III",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks Concertina of the Ashen Dragon for purchase."
+          },
+          {
+            "DisplayName": "Tome of Fire IV",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks Banjo of the Ashen Dragon for purchase."
+          },
+          {
+            "DisplayName": "Tome of Fire V",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks Speaking Trumpet of the Ashen Dragon for purchase."
+          },
+          {
+            "DisplayName": "Tome of Fire Collector",
+            "rewardType": "atCompletion",
+            "reward": "Rewards the Scholar of Fire Title. Unlocks Blunderbuss of the Ashen Dragon for purchase."
+          },
+          {
+            "DisplayName": "Tome of Resurrection I",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks Flag of the Ashen Dragon for purchase."
+          },
+          {
+            "DisplayName": "Tome of Resurrection II",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks Cannons of the Ashen Dragon for purchase."
+          },
+          {
+            "DisplayName": "Tome of Resurrection III",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks Capstan of the Ashen Dragon for purchase."
+          },
+          {
+            "DisplayName": "Tome of Resurrection IV",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks Wheel of the Ashen Dragon for purchase."
+          },
+          {
+            "DisplayName": "Tome of Resurrection V",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks Figurehead of the Ashen Dragon for purchase."
+          },
+          {
+            "DisplayName": "Tome of Resurrection Collector",
+            "rewardType": "atCompletion",
+            "reward": "Rewards the Scholar of Resurrection Title. Unlocks Eye of Reach of the Ashen Dragon for purchase."
+          }
+        ]
+      },
+      "mercenary-voyages": {
+        "Emblems": [
+          {
+            "DisplayName": "Legendary Reaper of Wanderers Refuge",
+            "rewardType": "atCompletion",
+            "reward": "Rewards the The Wandering Reaper Title."
+          },
+          {
+            "DisplayName": "Legendary Reaper of Shipwreck Bay",
+            "rewardType": "atCompletion",
+            "reward": "Rewards the The Shipwreck Reaper Title."
+          },
+          {
+            "DisplayName": "Legendary Eastward Black Powder Reaper",
+            "rewardType": "atCompletion",
+            "reward": "Rewards the Legendary Eastward Black Powder Reaper Title."
+          },
+          {
+            "DisplayName": "Legendary Westward Black Powder Reape",
+            "rewardType": "atCompletion",
+            "reward": "Rewards the Legendary Westward Black Powder Reaper Title."
+          },
+          {
+            "DisplayName": "Golden Benefactor",
+            "rewardType": "atCompletion",
+            "reward": "Rewards the Golden Benefactor Title."
+          },
+          {
+            "DisplayName": "Mystic Benefactor",
+            "rewardType": "atCompletion",
+            "reward": "Rewards the Mystic Benefactor Title."
+          },
+          {
+            "DisplayName": "Merchant Benefactor",
+            "rewardType": "atCompletion",
+            "reward": "Rewards the Merchant Benefactor Title."
+          },
+          {
+            "DisplayName": "Seeking Stolen Power",
+            "rewardType": "atCompletion",
+            "reward": "Rewards the Relic Hunter Title."
+          },
+          {
+            "DisplayName": "A Dark Collection",
+            "rewardType": "atCompletion",
+            "reward": "Rewards the Relic Collector Title."
+          },
+          {
+            "DisplayName": "Risking It All",
+            "rewardType": "atCompletion",
+            "reward": "Rewards the Death Defier Title."
+          },
+          {
+            "DisplayName": "Bone Haul Bearer",
+            "rewardType": "atCompletion",
+            "reward": "Rewards the Bone Haul Bearer Title."
+          },
+          {
+            "DisplayName": "Bone Haul Bandit",
+            "rewardType": "atCompletion",
+            "reward": "Rewards the Bone Haul Bandit Title."
+          },
+          {
+            "DisplayName": "Merchant of Death",
+            "rewardType": "atCompletion",
+            "reward": "Rewards the Merchant of Death Title."
+          },
+          {
+            "DisplayName": "Ritual Skulls Retrieved from Across the Sea of Thieves",
+            "rewardType": "atCompletion",
+            "reward": "Rewards the Skull Keeper Title."
+          },
+          {
+            "DisplayName": "“Ashen Seeker” Title",
+            "rewardType": "atCompletion",
+            "reward": "Rewards the Ashen Seeker Title."
+          },
+          {
+            "DisplayName": "Humble Giving for Many",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the Frostbite Bucket, Compass, Pocket Watch, Spyglass, and Flag for purchase."
+          },
+          {
+            "DisplayName": "Humble Giving for All",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the Frostbite Banjo, Concertina, Drum, Hurdy-Gurdy, Figurehead, and Sails for purchase."
+          },
+          {
+            "DisplayName": "Generous Giving for Many",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the Frostbite Lantern, Shovel, Speaking Trumpet, Tankard, Eastern Winds Jade Set equipment, instruments, and Eye of Reach for purchase."
+          },
+          {
+            "DisplayName": "Generous Giving for All",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the Frostbite Weapons, Capstan, Hull, and Wheel for purchase."
+          }
+        ]
+      },
+      "legends-of-the-sea": {
+        "Emblems": [
+          {
+            "DisplayName": "Legends of the Sea II",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks Sunshine Parrot Set items for purchase."
+          },
+          {
+            "DisplayName": "The Sea's Most Wanted",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks The Sea's Most Wanted Tattoo Set for purchase."
+          },
+          {
+            "DisplayName": "The Daredevils",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks The Daredevils Tattoo Set for purchase."
+          },
+          {
+            "DisplayName": "The Loveable Rogues",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks The Loveable Rogues Tattoo Set for purchase."
+          },
+          {
+            "DisplayName": "The Insatiable",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks The Insatiable Tattoo Set for purchase."
+          },
+          {
+            "DisplayName": "The Swashbucklers",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks The Swashbucklers Tattoo Set for purchase."
+          },
+          {
+            "DisplayName": "The Artistic Souls",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the Maestro Set and The Artistic Souls Tattoo Set for purchase."
+          },
+          {
+            "DisplayName": "The Piratical Jokers",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks The Piratical Jokers Tattoo Set for purchase."
+          },
+          {
+            "DisplayName": "The Pirate Scribes",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks The Gift Givers Tattoo Set for purchase."
+          },
+          {
+            "DisplayName": "The Early Settlers",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks The Early Settlers Tattoo Set for purchase."
+          },
+          {
+            "DisplayName": "Chronicler of Legend",
+            "rewardType": "atCompletion",
+            "reward": "Rewards the Chronicler of Legend Title. Unlocks Umbra's Chronicle Tattoo Set for purchase."
+          },
+          {
+            "DisplayName": "My Maiden Voyage",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks Glitterbeard's Sails in the Ship Customization Chest."
+          },
+          {
+            "DisplayName": "The Legend of Glitterbeard",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks Glitterbeard's Beard in the Vanity Chest."
+          },
+          {
+            "DisplayName": "A Glittering Chronicle",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks Glitterbeard's Cannon Flare in the Ship Customization Chest."
+          }
+        ]
+      },
+      "fort-of-the-damned": {
+        "Emblems": [
+          {
+            "DisplayName": "A Spectrum of Shadows",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks Lantern of the Damned for purchase."
+          },
+          {
+            "DisplayName": "Summoning the Damned",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks Facepaint of the Damned for purchase."
+          },
+          {
+            "DisplayName": "Banishing the Damned",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks Jacket of the Damned, Wicked Web Tankard, Blunderbuss, Cannons, and Figurehead for purchase."
+          },
+          {
+            "DisplayName": "Vanquishing the Damned",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the Soulflame Set Lantern, Weapon, and Crew Costumes for purchase and the Wicked Web Collector's Figurehead for purchase."
+          },
+          {
+            "DisplayName": "Conquering the Damned",
+            "rewardType": "atCompletion",
+            "reward": "Rewards the Raider of the Damned Title."
+          }
+        ]
+      },
+      "shrouded-spoils": {
+        "Emblems": [
+          {
+            "DisplayName": "Kraken Hunter",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the Kraken Capstan for purchase."
+          },
+          {
+            "DisplayName": "Master Kraken Hunter",
+            "rewardType": "atCompletion",
+            "reward": "Rewards the Master Kraken Hunter Title. Unlocks the Kraken Wheel for purchase."
+          },
+          {
+            "DisplayName": "Legendary Kraken Hunter",
+            "rewardType": "atCompletion",
+            "reward": "Rewards the Legendary Kraken Hunter Title. Unlocks the Kraken Cannons and Venomous Kraken Set for purchase."
+          },
+          {
+            "DisplayName": "Hunter of the Hungering One",
+            "rewardType": "atCompletion",
+            "reward": "Rewards the Hunter of the Hungering One Title."
+          },
+          {
+            "DisplayName": "Hunter of the Crested Queen",
+            "rewardType": "atCompletion",
+            "reward": "Rewards the Hunter of the Crested Queen Title."
+          },
+          {
+            "DisplayName": "Hunter of the Shadowmaw",
+            "rewardType": "atCompletion",
+            "reward": "Rewards the Hunter of the Shadowmaw Title."
+          },
+          {
+            "DisplayName": "Hunter of the Ancient Terror",
+            "rewardType": "atCompletion",
+            "reward": "Rewards the Hunter of the Ancient Terror Title."
+          },
+          {
+            "DisplayName": "Hunter of the Shrouded Ghost",
+            "rewardType": "atCompletion",
+            "reward": "Rewards the Hunter of the Shrouded Ghost Title. Unlocks the Shrouded Ghost Figurehead in the Ship Customization Chest. Unlocks the Spectre of the Sea Trophy for purchase."
+          },
+          {
+            "DisplayName": "Golden Skeleton Captain",
+            "rewardType": "atCompletion",
+            "reward": "Rewards the Golden Skeleton Captain Title. Unlocks the Bone Crusher Capstan for purchase."
+          },
+          {
+            "DisplayName": "Mystical Skeleton Captain",
+            "rewardType": "atCompletion",
+            "reward": "Rewards the Mystical Skeleton Captain Title. Unlocks the Bone Crusher Wheel for purchase."
+          },
+          {
+            "DisplayName": "Hoarder of Sapphire Mermaid Gems",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the Ocean Crawler Capstan for purchase."
+          },
+          {
+            "DisplayName": "Hoarder of Emerald Mermaid Gems",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the Ocean Crawler Wheel for purchase."
+          },
+          {
+            "DisplayName": "Hoarder of Ruby Mermaid Gems",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the Ocean Crawler Cannons for purchase."
+          }
+        ]
+      },
+      "festival-of-the-damned": {
+        "Emblems": [
+          {
+            "DisplayName": "Legend of The Damned",
+            "rewardType": "atCompletion",
+            "reward": "Rewards the Legend of The Damned Title."
+          }
+        ]
+      },
+      "forsaken-shores": {
+        "Emblems": [
+          {
+            "DisplayName": "Master Devil's Voyager",
+            "rewardType": "atCompletion",
+            "reward": "Rewards the Master Devil's Voyager Title. Unlocks the Forsaken Ashes Set Clothing, Vanity, and Equipment items for purchase."
+          },
+          {
+            "DisplayName": "Master Cargo Runner",
+            "rewardType": "atCompletion",
+            "reward": "Rewards the Master Cargo Runner Title."
+          },
+          {
+            "DisplayName": "Legendary Cargo Runner",
+            "rewardType": "atCompletion",
+            "reward": "Rewards the Legendary Cargo Runner Title."
+          }
+        ]
+      },
+      "the-cursed-crews": {
+        "Emblems": [
+          {
+            "DisplayName": "Master Of Cursed Iron",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the Fearless Bone Crusher Wheel for purchase."
+          },
+          {
+            "DisplayName": "Legend Of Cursed Iron",
+            "rewardType": "atCompletion",
+            "reward": "Rewards the Legend Of Cursed Iron Title."
+          },
+          {
+            "DisplayName": "The Curse Of The Pacifists Demise",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks Cultured Aristocrat Set items for purchase."
+          },
+          {
+            "DisplayName": "Legendary Cursed Voyager",
+            "rewardType": "atCompletion",
+            "reward": "Rewards the Legendary Cursed Voyager Title."
+          }
+        ]
+      },
+      "cursed-sails": {
+        "Emblems": [
+          {
+            "DisplayName": "Protector of The Wilds",
+            "rewardType": "atCompletion",
+            "reward": "Rewards the Protector of The Wilds Title."
+          },
+          {
+            "DisplayName": "Protector of The Shores of Plenty",
+            "rewardType": "atCompletion",
+            "reward": "Rewards the Protector of The Shores of Plenty Title."
+          },
+          {
+            "DisplayName": "Protector of The Ancient Isles",
+            "rewardType": "atCompletion",
+            "reward": "Rewards the Protector of The Ancient Isles Title."
+          },
+          {
+            "DisplayName": "Conqueror of the Skeleton Fleets",
+            "rewardType": "atCompletion",
+            "reward": "Rewards the Conqueror of the Skeleton Fleets Title."
+          },
+          {
+            "DisplayName": "Seeker of the Warsmith",
+            "rewardType": "atCompletion",
+            "reward": "Rewards the Seeker of the Warsmith Title."
+          },
+          {
+            "DisplayName": "Scourge of Skeleton Ships",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the Bone Crusher Belt, Boots, Gloves, Pegleg, Hook, Eyepatch, Equipments, and Cannons for purchase. (Required to unlock the Stronghold Chest Disguise for purchase, in conjunction with Hidden in Plain Sight.)"
+          }
+        ]
+      },
+      "the-sunken-curse": {
+        "Emblems": [
+          {
+            "DisplayName": "Legendary Curse Breaker",
+            "rewardType": "atCompletion",
+            "reward": "Rewards the Legendary Curse Breaker Title."
+          }
+        ]
+      },
+      "skeleton-thrones": {
+        "Emblems": [
+          {
+            "DisplayName": "Retreat to the Thrones' Haven",
+            "rewardType": "atCompletion",
+            "reward": "Rewards the Legend of Thieves' Haven Title."
+          }
+        ]
+      },
+      "the-hungering-deep": {
+        "Emblems": [
+          {
+            "DisplayName": "Find Merrick's Journals",
+            "rewardType": "atCompletion",
+            "reward": "Rewards the Shark Hunter Title."
+          },
+          {
+            "DisplayName": "Defeated the Hungering One",
+            "rewardType": "atCompletion",
+            "reward": "Rewards the Shark Slayer Title."
+          }
+        ]
+      }
+    }
+  },
   "GoldHoarders": {
     "Emblems": {
       "Emblems": [
         {
-          "DisplayName": "Hoarder of Treasured Tears",
+          "DisplayName": "Golden Voyager",
           "rewardType": "atCompletion",
-          "reward": "Grade 5: Rewards the 'Hoarder of Treasured Tears' title."
+          "reward": "Rewards the Golden Voyager Title."
         },
         {
-          "DisplayName": "Worthy Emissary of Gold",
+          "DisplayName": "Keeper of a Glittering Hoard",
+          "rewardType": "atCompletion",
+          "reward": "Rewards the Keeper of a Glittering Hoard Title."
+        },
+        {
+          "DisplayName": "Sailor of the Gold Horizon",
+          "rewardType": "atCompletion",
+          "reward": "Rewards the Sailor of the Gold Horizon Title. Unlocks Gold Hoarders Speaking Trumpet, Spyglass and Tankard for purchase."
+        },
+        {
+          "DisplayName": "Hoarder of the Castaway's Gold",
+          "rewardType": "atCompletion",
+          "reward": "Rewards the Hoarder of the Castaway's Gold Title."
+        },
+        {
+          "DisplayName": "Hoarder of the Seafarer's Gold",
+          "rewardType": "atCompletion",
+          "reward": "Rewards the Hoarder of the Seafarer's Gold Title."
+        },
+        {
+          "DisplayName": "Hoarder of the Marauder's Gold",
+          "rewardType": "atCompletion",
+          "reward": "Rewards the Hoarder of the Marauder's Gold Title."
+        },
+        {
+          "DisplayName": "Hoarder of the Captain's Gold",
+          "rewardType": "atCompletion",
+          "reward": "Rewards the Hoarder of the Captain's Gold Title."
+        },
+        {
+          "DisplayName": "Hoarder of Grog Soaked Gold",
+          "rewardType": "atCompletion",
+          "reward": "Rewards the Hoarder of Grog Soaked Gold Title."
+        },
+        {
+          "DisplayName": "Hoarder of Treasured Tears",
+          "rewardType": "atCompletion",
+          "reward": "Rewards the Hoarder of Treasured Tears Title."
+        },
+        {
+          "DisplayName": "Hoarder of Barnacled Gold",
+          "rewardType": "atCompletion",
+          "reward": "Rewards the Hoarder of Barnacled Gold Title. Unlocks The Silent Barnacle Set items for purchase."
+        },
+        {
+          "DisplayName": "Hoarder of Lost Artefacts",
+          "rewardType": "atCompletion",
+          "reward": "Rewards the Hoarder of Lost Artefacts Title."
+        },
+        {
+          "DisplayName": "Gold Raider",
+          "rewardType": "atCompletion",
+          "reward": "Required to unlock the Sea Master's Chest Disguise for purchase, in conjunction with 'Rusty Bucket Bay'."
+        },
+        {
+          "DisplayName": "Hoarder of Ancient Tributes",
+          "rewardType": "atCompletion",
+          "reward": "Rewards the Hoarder of Ancient Tributes Title."
+        },
+        {
+          "DisplayName": "Seeker of Ancient Vaults",
+          "rewardType": "atCompletion",
+          "reward": "Rewards the Seeker of Ancient Vaults Title. Unlocks the Ancient Vault Sails, the Gold Hoarders weapons for purchase."
+        }
+      ]
+    }
+  },
+  "OrderOfSouls": {
+    "Emblems": {
+      "Emblems": [
+        {
+          "DisplayName": "Voyager of Lost Souls",
+          "rewardType": "atCompletion",
+          "reward": "Rewards the Voyager of Lost Souls Title."
+        },
+        {
+          "DisplayName": "Mercenary of the Ancient Order",
+          "rewardType": "atCompletion",
+          "reward": "Rewards the Mercenary of the Ancient Order Title."
+        },
+        {
+          "DisplayName": "Sailor of the Whispering Bones",
+          "rewardType": "atCompletion",
+          "reward": "Rewards the Sailor of the Whispering Bones Title. Unlocks Order of Souls Bucket for purchase."
+        },
+        {
+          "DisplayName": "Hunter of Foul Skulls",
+          "rewardType": "atCompletion",
+          "reward": "Rewards the Hunter of Foul Skulls Title."
+        },
+        {
+          "DisplayName": "Hunter of Disgraced Skulls",
+          "rewardType": "atCompletion",
+          "reward": "Rewards the Hunter of Disgraced Skulls Title."
+        },
+        {
+          "DisplayName": "Hunter of Hateful Skulls",
+          "rewardType": "atCompletion",
+          "reward": "Rewards the Hunter of Hateful Skulls Title."
+        },
+        {
+          "DisplayName": "Hunter of Villainous Skulls",
+          "rewardType": "atCompletion",
+          "reward": "Rewards the Hunter of Villainous Skulls Title."
+        },
+        {
+          "DisplayName": "Hunter of Cursed Crews",
+          "rewardType": "atCompletion",
+          "reward": "Rewards the Hunter of Cursed Crews Title."
+        },
+        {
+          "DisplayName": "Hunter of Cursed Captains",
           "rewardType": "perGrade",
           "reward_graded": [
             {
               "grade": 1,
-              "reward": "Grade 1 reward"
+              "reward": "Unlocks Nightfall Hunter belt, boots and gloves for purchase."
             },
             {
               "grade": 2,
-              "reward": "Grade 2 reward"
+              "reward": "Unlocks Nightfall Hunter trousers, shirt and eyepatch for purchase."
             },
             {
               "grade": 3,
-              "reward": "Grade 3 reward"
+              "reward": "Unlocks Nightfall Hunter pegleg and hook for purchase."
             },
             {
               "grade": 4,
-              "reward": "Grade 4: This is a longer string of text that shows all the unlocks that this super commendations grants. Is it long enough? It may be."
+              "reward": "Unlocks Nightfall Hunter dress, jacket and hat for purchase."
             },
             {
               "grade": 5,
-              "reward": "Grade 5 reward"
+              "reward": "Rewards the Hunter of Cursed Captains Title."
             }
           ]
+        },
+        {
+          "DisplayName": "Raider of Cursed Strongholds",
+          "rewardType": "atCompletion",
+          "reward": "Rewards the Raider of Cursed Strongholds Title."
+        },
+        {
+          "DisplayName": "Hunter of Fort Skulls",
+          "rewardType": "atCompletion",
+          "reward": "Rewards the Hunter of Fort Skulls Title."
+        },
+        {
+          "DisplayName": "Worthy Emissary of Souls",
+          "rewardType": "atCompletion",
+          "reward": "Rewards the Worthy Emissary of Souls Title, and the Order of Souls Blunderbuss, Cutlass, Pistol and Eye of Reach for purchase."
+        },
+        {
+          "DisplayName": "Unrivalled Emissary of Souls",
+          "rewardType": "atCompletion",
+          "reward": "Unlocks Order of Souls Spyglass for purchase."
+        },
+        {
+          "DisplayName": "Scourge of the Damned",
+          "rewardType": "perGrade",
+          "reward_graded": [
+            {
+              "grade": 1,
+              "reward": "Grade 3 is required to unlock the Chest of the Damned Disguise (in conjunction with The Power of Three)."
+            },
+            {
+              "grade": 2,
+              "reward": "Grade 3 is required to unlock the Chest of the Damned Disguise (in conjunction with The Power of Three)."
+            },
+            {
+              "grade": 3,
+              "reward": "Unlocks the Chest of the Damned Disguise for purchase (in conjunction with The Power of Three)."
+            },
+            {
+              "grade": 4,
+              "reward": "Grade 5 will reward the Scourge of the Damned Title."
+            },
+            {
+              "grade": 5,
+              "reward": "Rewards the Scourge of the Damned Title."
+            }
+          ]
+        },
+        {
+          "DisplayName": "Banisher of the Spectral Flame",
+          "rewardType": "atCompletion",
+          "reward": "Rewards the Banisher of the Spectral Flame Title and unlocks the Burning Blade Sails for purchase."
+        },
+        {
+          "DisplayName": "Hunter of Damned Captains",
+          "rewardType": "atCompletion",
+          "reward": "Unlocks the Ghost Captain Sails for purchase."
+        }
+      ]
+    }
+  },
+  "MerchantAlliance": {
+    "Emblems": {
+      "Emblems": [
+        {
+          "DisplayName": "Merchant Voyager",
+          "rewardType": "atCompletion",
+          "reward": "Rewards the Merchant Voyager Title."
+        },
+        {
+          "DisplayName": "Gilded Merchant",
+          "rewardType": "atCompletion",
+          "reward": "Rewards the Gilded Merchant Title."
+        },
+        {
+          "DisplayName": "Sailor of the Merchant Alliance",
+          "rewardType": "atCompletion",
+          "reward": "Rewards the Sailor of the Merchant Alliance Title."
+        },
+        {
+          "DisplayName": "Merchant Forager",
+          "rewardType": "atCompletion",
+          "reward": "Rewards the Merchant Forager Title."
+        },
+        {
+          "DisplayName": "Merchant Shipwright",
+          "rewardType": "atCompletion",
+          "reward": "Rewards the Merchant Shipwright Title."
+        },
+        {
+          "DisplayName": "Cast Iron Merchant",
+          "rewardType": "atCompletion",
+          "reward": "Rewards the Cast Iron Merchant Title."
+        },
+        {
+          "DisplayName": "Black Powder Merchant",
+          "rewardType": "atCompletion",
+          "reward": "Rewards the Black Powder Merchant Title."
+        },
+        {
+          "DisplayName": "Merchant of the Dawn Caller",
+          "rewardType": "atCompletion",
+          "reward": "Rewards the Merchant of the Dawn Caller Title."
+        },
+        {
+          "DisplayName": "Merchant of the Wild Hog",
+          "rewardType": "atCompletion",
+          "reward": "Rewards the Merchant of the Wild Hog Title."
+        },
+        {
+          "DisplayName": "Merchant of the Serpent's Scale",
+          "rewardType": "atCompletion",
+          "reward": "Rewards the Merchant of the Serpent's Scale Title."
+        },
+        {
+          "DisplayName": "Merchant of Grand Fauna",
+          "rewardType": "atCompletion",
+          "reward": "Rewards the Merchant of Grand Fauna Title."
+        },
+        {
+          "DisplayName": "Merchant of the Silken Trade",
+          "rewardType": "atCompletion",
+          "reward": "Rewards the Merchant of the Silken Trade Title."
+        },
+        {
+          "DisplayName": "Merchant of the Flora Trade",
+          "rewardType": "atCompletion",
+          "reward": "Rewards the Merchant of the Flora Trade Title."
+        },
+        {
+          "DisplayName": "Merchant Rum Runner",
+          "rewardType": "atCompletion",
+          "reward": "Rewards the Merchant Rum Runner Title."
+        },
+        {
+          "DisplayName": "Merchant of Forsaken Silk",
+          "rewardType": "atCompletion",
+          "reward": "Rewards the Merchant of Forsaken Silk Title."
+        },
+        {
+          "DisplayName": "Merchant of Forsaken Flora",
+          "rewardType": "atCompletion",
+          "reward": "Rewards the Merchant of Forsaken Flora Title."
+        },
+        {
+          "DisplayName": "Merchant of Forsaken Rum",
+          "rewardType": "atCompletion",
+          "reward": "Rewards the Merchant of Forsaken Rum Title."
+        },
+        {
+          "DisplayName": "Manifestation",
+          "rewardType": "atCompletion",
+          "reward": "Rewards the Merchant of Manifests Title. Unlocks the Merchant Pathfinder Sail for purchase."
+        },
+        {
+          "DisplayName": "Cabin Fever",
+          "rewardType": "atCompletion",
+          "reward": "Rewards the Merchant of Mysteries Title. Unlocks the Golden Gatherer Merchant Sail for purchase."
+        },
+        {
+          "DisplayName": "Profiteer of Sought Stock",
+          "rewardType": "atCompletion",
+          "reward": "Unlocks the Merchant Alliance Hook for purchase."
+        },
+        {
+          "DisplayName": "Taker of Stolen Stock",
+          "rewardType": "atCompletion",
+          "reward": "Rewards the Merchant Adventurer Title."
+        },
+        {
+          "DisplayName": "Master of Shifted Stock",
+          "rewardType": "atCompletion",
+          "reward": "Unlocks the Merchant Alliance Eyepatch for purchase."
+        }
+      ]
+    }
+  },
+  "AthenasFortune": {
+    "Emblems": {
+      "Emblems": [
+        {
+          "DisplayName": "Sailor of Athena's Fortune",
+          "rewardType": "atCompletion",
+          "reward": "Rewards the Sailor of Athena's Fortune Title. Unlocks the Legendary Capstan for purchase."
+        },
+        {
+          "DisplayName": "Athena's Voyager",
+          "rewardType": "atCompletion",
+          "reward": "Rewards the Athena's Voyager Title. Unlocks the Legendary Wheel for purchase."
+        },
+        {
+          "DisplayName": "Legendary Treasure Hunter",
+          "rewardType": "atCompletion",
+          "reward": "Rewards the Legendary Treasure Hunter Title. Unlocks the Legendary Treasure Seeker Costume for purchase."
+        },
+        {
+          "DisplayName": "Legendary Thief",
+          "rewardType": "atCompletion",
+          "reward": "Rewards the Legendary Thief title."
+        },
+        {
+          "DisplayName": "Hoarder of Athena's Fortune",
+          "rewardType": "atCompletion",
+          "reward": "Rewards the Hoarder of Athena's Fortune Title. Required to unlock the Chest of Legends Disguise for purchase, in conjunction with Pitfall Practitioner."
+        },
+        {
+          "DisplayName": "Legend of Black Powder",
+          "rewardType": "atCompletion",
+          "reward": "Rewards the Legend of Black Powder Title."
+        },
+        {
+          "DisplayName": "Golden Legend of the Strongholds",
+          "rewardType": "atCompletion",
+          "reward": "Rewards the Golden Legend of the Strongholds Title."
+        },
+        {
+          "DisplayName": "Mystical Legend of the Strongholds",
+          "rewardType": "atCompletion",
+          "reward": "Rewards the Mystical Legend of the Strongholds Title."
+        },
+        {
+          "DisplayName": "Legendary Merchant of Bone",
+          "rewardType": "atCompletion",
+          "reward": "Rewards the Legendary Merchant of Bone Title."
+        },
+        {
+            "DisplayName": "Legendary Goald Hoarder",
+            "rewardType": "atCompletion",
+            "reward": "Rewards the Legendary Gold Hoarder Title. UJnlocks the Legendary Shovel and Compass for purchase."
+        },
+        {
+          "DisplayName": "Legendary Merchant of Fauna",
+          "rewardType": "atCompletion",
+          "reward": "Rewards the Legendary Merchant of Fauna Title."
+        },
+        {
+          "DisplayName": "Legend of the Mystical Order",
+          "rewardType": "atCompletion",
+          "reward": "Rewards the Legend of the Mystical Order Title. Unlocks the Legendary Tankard and Legendary Lantern for purchase."
+        },
+        {
+          "DisplayName": "Legendary Merchant Trader",
+          "rewardType": "atCompletion",
+          "reward": "Rewards the Legendary Merchant Trader Title. Unlocks the Legendary Spyglass and Legendary Pocket Watch for purchase."
+        },
+        {
+          "DisplayName": "Legend of The Sea of Thieves",
+          "rewardType": "atCompletion",
+          "reward": "Rewards the Legend of The Sea of Thieves Title. Unlocks the Legendary Cannons for purchase."
+        },
+        {
+          "DisplayName": "Legendary Hunter of the Hungering One",
+          "rewardType": "atCompletion",
+          "reward": "Rewards the Legendary Hunter of the Hungering One Title."
+        },
+        {
+          "DisplayName": "Legendary Hunter of the Crested Queen",
+          "rewardType": "atCompletion",
+          "reward": "Rewards the Legendary Hunter of the Crested Queen Title."
+        },
+        {
+          "DisplayName": "Legendary Hunter of the Shadowmaw",
+          "rewardType": "atCompletion",
+          "reward": "Rewards the Legendary Hunter of the Shadowmaw Title."
+        },
+        {
+          "DisplayName": "Legendary Hunter of the Shrouded Ghost",
+          "rewardType": "atCompletion",
+          "reward": "Rewards the Legendary Hunter of the Shrouded Ghost Title."
+        },
+        {
+          "DisplayName": "Legend of the Deep",
+          "rewardType": "atCompletion",
+          "reward": "Rewards the Legend of the Deep Title and the Ghost Fishing Rod for purchase."
+        },
+        {
+          "DisplayName": "Shiny Loot of Legends",
+          "rewardType": "atCompletion",
+          "reward": "Unlocks the Collector of Legendary Chalices Title and the Ghost Cannon for purchase, in conjunction with 'Gilded Loot of Legends'"
+        },
+        {
+          "DisplayName": "Gilded Loot of Legends",
+          "rewardType": "atCompletion",
+          "reward": "Unlocks the Ghost Tankard for purchase and the Collector of Legendary Relics Title. Unlocks the Ghost Cannon for purchase, in conjunction with 'Shiny Loot of Legends'."
+        },
+        {
+          "DisplayName": "Spooky Loot of Legends",
+          "rewardType": "atCompletion",
+          "reward": "Unlocks the Collector of Legendary Skulls Title and the Ghost Capstan for purchase, in conjunction with 'Villainous Loot of Legends'."
+        },
+        {
+          "DisplayName": "Villainous Loot of Legends",
+          "rewardType": "atCompletion",
+          "reward": "Unlocks the Ghost Bucket for purchase, the Collector of Legendary Villainous Skulls Title, and the Ghost Capstan for purchase, in conjunction with 'Spooky Loot of Legends'."
+        },
+        {
+          "DisplayName": "Mercantile Loot of Legends",
+          "rewardType": "atCompletion",
+          "reward": "Unlocks the Collector of Legendary Voyages Title and the Ghost Wheel for purchase, in conjunction with 'Explosive Loot of Legends'."
+        },
+        {
+          "DisplayName": "Explosive Loot of Legends",
+          "rewardType": "atCompletion",
+          "reward": "Unlocks the Ghost Pocket Watch for purchase, the Collector of Legendary Black Powder Title, and the Ghost Wheel for purchase, in conjunction with 'Mercantile Loot of Legends'."
+        },
+        {
+          "DisplayName": "Worthy Emissary of Athena",
+          "rewardType": "atCompletion",
+          "reward": "Rewards the Seeker of Athena's Fortune Title."
+        },
+        {
+          "DisplayName": "Unrivalled Emissary of Athena",
+          "rewardType": "atCompletion",
+          "reward": "Unlocks the Ghost Lantern for purchase."
+        },
+        {
+          "DisplayName": "Legendary Riches",
+          "rewardType": "atCompletion",
+          "reward": "Unlocks the Ghost Shovel for purchase."
+        },
+        {
+          "DisplayName": "Peerless Legend",
+          "rewardType": "atCompletion",
+          "reward": "Unlocks the Ghost Speaking Trumpet for purchase."
+        },
+        {
+          "DisplayName": "Obliquity of the Ecliptic",
+          "rewardType": "atCompletion",
+          "reward": "Unlocks the Ancient Flintlock for purchase."
+        },
+        {
+          "DisplayName": "Master Banisher",
+          "rewardType": "atCompletion",
+          "reward": "Unlocks the Servant of the Flame Cutlass for purchase."
+        },
+        {
+          "DisplayName": "Demolition Plan",
+          "rewardType": "atCompletion",
+          "reward": "Unlocks the Servant of the Flame Hat for purchase."
+        },
+        {
+          "DisplayName": "Tower Defence",
+          "rewardType": "atCompletion",
+          "reward": "Unlocks the Ancient Blunderbuss for purchase."
+        },
+        {
+          "DisplayName": "Legend of the Veil",
+          "rewardType": "atCompletion",
+          "reward": "Unlocks the Pirate Lord Pegleg for purchase."
+        },
+        {
+          "DisplayName": "Veil Seeker",
+          "rewardType": "atCompletion",
+          "reward": "Unlocks the Ancient Cutlass for purchase and the Veil Seeker achievement."
+        },
+        {
+          "DisplayName": "True Legend",
+          "rewardType": "atCompletion",
+          "reward": "Unlocks the True Legend achievement."
+        },
+        {
+          "DisplayName": "Legendary Loot Seller",
+          "rewardType": "atCompletion",
+          "reward": "Unlocks the Ancient Eye of Reach for purchase and the Legendary Loot Seller achievement."
+        }
+      ]      
+    }
+  },
+  "ReapersBones": {
+    "Emblems": {
+      "Emblems": [
+        {
+          "DisplayName": "Plundered Prizes",
+          "rewardType": "perGrade",
+          "reward_graded": [
+            {
+              "grade": 1,
+              "reward": "Unlocks Dawn Hunter instruments for purchase."
+            },
+            {
+              "grade": 2,
+              "reward": "Unlocks Dawn Hunter equipment for purchase."
+            },
+            {
+              "grade": 3,
+              "reward": "Unlocks Dawn Hunter clothing and vanity items for purchase."
+            },
+            {
+              "grade": 4,
+              "reward": "Unlocks Dawn Hunter weapons for purchase."
+            },
+            {
+              "grade": 5,
+              "reward": "Unlocks Dawn Hunter ship set for purchase."
+            }
+          ]
+        },
+        {
+          "DisplayName": "Gold Hoarders Outshined",
+          "rewardType": "atCompletion",
+          "reward": "Unlocks Disgraced Gold Hoarders Hat for purchase."
+        },
+        {
+          "DisplayName": "Order of Souls Shamed",
+          "rewardType": "atCompletion",
+          "reward": "Unlocks Disgraced Order of Souls Headband for purchase."
+        },
+        {
+          "DisplayName": "Merchant Alliance Ransacked",
+          "rewardType": "atCompletion",
+          "reward": "Unlocks Disgraced Merchant Alliance Hat for purchase."
+        }
+     ]
+    }
+  },
+  "HuntersCall": {
+    "Campaigns": {
+      "splashtails": {
+        "Emblems": [
+          {
+            "DisplayName": "Hunter of Splashtails",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks Bilge Rat Fishing Rod, Castaway Bilge Rat Fishing Rod, and Scurvy Bilge Rat Fishing Rod for purchase. Rewards the 'Hunter of Splashtails' Title."
+          }
+        ]
+      },
+      "plentifins": {
+        "Emblems": 
+        {
+          "DisplayName": "Hunter of Plentifins",
+          "rewardType": "atCompletion",
+          "reward": "Unlocks Admiral Fishing Rod, Grand Admiral Fishing Rod, and Ceremonial Admiral Fishing Rod for purchase. Rewards the 'Hunter of Plentifins' Title."
+        }
+      },
+      "ancientscales": {
+        "Emblems": [
+          {
+            "DisplayName": "Hunter of Ancientscales",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks Sovereign Fishing Rod, Imperial Sovereign Fishing Rod, and Royal Sovereign Fishing Rod for purchase. Rewards the 'Hunter of Ancientscales' Title."
+          }
+        ]
+      },
+      "wildsplashes": {
+        "Emblems": [
+          {
+            "DisplayName": "Hunter of Wildsplashes",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks Sea Dog Fishing Rod, Ruffian Sea Dog Fishing Rod, and Rogue Sea Dog Fishing Rod for purchase. Rewards the 'Hunter of Wildsplashes' Title."
+          }
+        ]
+      },
+      "devilfishes": {
+        "Emblems": [
+          {
+            "DisplayName": "Hunter of Devilfishes",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks Forsaken Ashes Fishing Rod for purchase. Rewards the 'Hunter of Devilfishes' Title."
+          }
+        ]
+      },
+      "islehoppers": {
+        "Emblems": [
+          {
+            "DisplayName": "Hunter of Islehoppers",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks Hunter Fishing Rod for purchase. Rewards the 'Hunter of Islehoppers' Title."
+          }
+        ]
+      },
+      "pondies": {
+        "Emblems": [
+          {
+            "DisplayName": "Hunter of Pondies",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks Parrot Fishing Rod for purchase. Rewards the 'Hunter of Pondies' Title."
+          }
+        ]
+      },
+      "battlegills": {
+        "Emblems": [
+          {
+            "DisplayName": "Hunter of Battlegills",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks Bone Crusher Fishing Rod for purchase. Rewards the 'Hunter of Battlegills' Title."
+          }
+        ]
+      },
+      "stormfishes": {
+        "Emblems": [
+          {
+            "DisplayName": "Hunter of Stormfishes",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks Kraken Fishing Rod for purchase. Rewards the 'Hunter of Stormfishes' Title."
+          }
+        ]
+      },
+      "wreckers": {
+        "Emblems": [
+          {
+            "DisplayName": "Hunter of Wreckers",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks Ocean Crawler Fishing Rod for purchase. Rewards the 'Hunter of Wreckers' Title."
+          }
+        ]
+      },
+      "cooking": {
+        "Emblems": [
+          {
+            "DisplayName": "Hunter of the Dawn Caller",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks Dawn Caller Tattoo Set for purchase. Rewards the 'Hunter of the Dawn Caller' Title."
+          },
+          {
+            "DisplayName": "Hunter of the Wild Hog",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks Wild Hog Tattoo Set for purchase. Rewards the 'Hunter of the Wild Hog' Title."
+          },
+          {
+            "DisplayName": "Hunter of the Serpent's Scale",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks Serpent's Scale Tattoo Set for purchase. Rewards the 'Hunter of the Serpent's Scale' Title."
+          },
+          {
+            "DisplayName": "Hunter of the Sharpened Teeth",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks Sharpened Teeth Tattoo Set for purchase. Rewards the 'Hunter of the Sharpened Teeth' Title."
+          },
+          {
+            "DisplayName": "Hunter of the Great Maw",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks Megalodon Makeup for purchase. Rewards the 'Hunter of the Great Maw' Title."
+          },
+          {
+            "DisplayName": "Hunter of the Monstrous Beast",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks Kraken Makeup for purchase. Rewards the 'Hunter of the Monstrous Beast' Title."
+          }
+        ]
+      },
+      "merrick's-accolades": {
+        "Emblems": [
+          {
+            "DisplayName": "Hunter of Treacherous Plunder",
+            "rewardType": "atCompletion",
+            "reward": "Rewards the 'Hunter of Treacherous Plunder' Title."
+          },
+          {
+            "DisplayName": "Captain of The Killer Whale",
+            "rewardType": "atCompletion",
+            "reward": "Rewards the 'Captain of The Killer Whale' Title."
+          },
+          {
+            "DisplayName": "Hunter of Trophy Fish",
+            "rewardType": "atCompletion",
+            "reward": "Rewards the 'Hunter of Trophy Fish' Title. Unlocks the Azure Ocean Crawler Set."
+          },
+          {
+            "DisplayName": "Master Hunter of Trophy Fish",
+            "rewardType": "atCompletion",
+            "reward": "Rewards the 'Master Hunter of Trophy Fish' Title."
+          },
+          {
+            "DisplayName": "Legendary Hunter of Trophy Fish",
+            "rewardType": "atCompletion",
+            "reward": "Rewards the 'Legendary Hunter of Trophy Fish' Title."
+          },
+          {
+            "DisplayName": "Hunter of the Sea of Thieves",
+            "rewardType": "atCompletion",
+            "reward": "Rewards the 'Hunter of the Sea of Thieves' Title."
+          },
+          {
+            "DisplayName": "Master Hunter of the Sea of Thieves",
+            "rewardType": "atCompletion",
+            "reward": "Rewards the 'Master Hunter of the Sea of Thieves' Title."
+          },
+          {
+            "DisplayName": "Legendary Hunter of the Sea of Thieves",
+            "rewardType": "atCompletion",
+            "reward": "Rewards the 'Legendary Hunter of the Sea of Thieves' Title."
+          }
+        ]
+      }
+    }
+  },
+  "PirateLord": {
+    "Emblems": {
+      "Emblems": [
+        {
+          "DisplayName": "Pretty Good at This",
+          "rewardType": "atCompletion",
+          "reward": "Unlocks the Guardian Ghost Blunderbuss, Pistol, Figurehead, and Wheel for purchase."
+        },
+        {
+          "DisplayName": "Too Many to Count",
+          "rewardType": "atCompletion",
+          "reward": "Unlocks the Guardian Ghost Pegleg and Hull for purchase."
+        },
+        {
+          "DisplayName": "Quite the Collection",
+          "rewardType": "atCompletion",
+          "reward": "Unlocks the Guardian Ghost Jacket, Trousers, Capstan, Spyglass, Speaking Trumpet, and Flag for purchase."
+        },
+        {
+          "DisplayName": "Bring It On",
+          "rewardType": "atCompletion",
+          "reward": "Unlocks the Guardian Ghost Shovel and Sails for purchase."
+        },
+        {
+          "DisplayName": "Ghost Lord",
+          "rewardType": "atCompletion",
+          "reward": "Unlocks the Guardian Ghost Pocket Watch for purchase."
+        },
+        {
+          "DisplayName": "Spooky Stories",
+          "rewardType": "atCompletion",
+          "reward": "Unlocks the Guardian Ghost Lantern for purchase."
+        },
+        {
+          "DisplayName": "Ghost Ship",
+          "rewardType": "atCompletion",
+          "reward": "Unlocks the Guardian Ghost Fishing Rod for purchase."
+        },
+        {
+          "DisplayName": "Ghost Fort",
+          "rewardType": "atCompletion",
+          "reward": "Unlocks the Guardian Ghost Compass for purchase."
+        },
+        {
+          "DisplayName": "You Slimed Him",
+          "rewardType": "atCompletion",
+          "reward": "Unlocks the Guardian Ghost Bucket and Tankard for purchase."
+        },
+        {
+          "DisplayName": "The Poltergeists",
+          "rewardType": "atCompletion",
+          "reward": "Unlocks the Guardian Ghost instruments for purchase."
+        },
+        {
+          "DisplayName": "Magpie's Revenge",
+          "rewardType": "atCompletion",
+          "reward": "Unlocks the Guardian Ghost Hook, Eye of Reach, Cutlass and Cannon for purchase."
+        },
+        {
+          "DisplayName": "Order of Ghouls",
+          "rewardType": "atCompletion",
+          "reward": "Unlocks the Guardian Ghost Boots and Gloves for purchase."
+        },
+        {
+          "DisplayName": "Ghostly Apparitions",
+          "rewardType": "atCompletion",
+          "reward": "Unlocks the Guardian Ghost Hat for purchase."
+        },
+        {
+          "DisplayName": "Spectral Spectacle",
+          "rewardType": "atCompletion",
+          "reward": "Unlocks the Guardian Ghost Eyepatch for purchase."
+        },
+        {
+          "DisplayName": "Broken Bones",
+          "rewardType": "atCompletion",
+          "reward": "Unlocks the Guardian Ghost Belt for purchase."
+        }
+      ]
+    }
+  },
+  "Flameheart": {
+    "Emblems": {
+      "Emblems": [
+        {
+          "DisplayName": "In His Name",
+          "rewardType": "atCompletion",
+          "reward": "Unlocks Verdant Bones for purchase."
+        },
+        {
+          "DisplayName": "Risk It All",
+          "rewardType": "atCompletion",
+          "reward": "Unlocks Skeletal Skirt Lower Body for purchase."
+        },
+        {
+          "DisplayName": "His Favourite Crew",
+          "rewardType": "atCompletion",
+          "reward": "Unlocks Wheel-Built Upper Body and Twin Pegs Lower Body for purchase."
+        },
+        {
+          "DisplayName": "Pathetic Tokens",
+          "rewardType": "atCompletion",
+          "reward": "Unlocks Barrel-Chested Upper Body for purchase."
+        },
+        {
+          "DisplayName": "Rack Them Up",
+          "rewardType": "atCompletion",
+          "reward": "Unlocks Barnacled Skull for purchase."
+        },
+        {
+          "DisplayName": "Stories From the Dead",
+          "rewardType": "atCompletion",
+          "reward": "Unlocks Rags 'n' Bones Lower Body and Ashen Bones for purchase."
+        },
+        {
+          "DisplayName": "Bony Fort",
+          "rewardType": "atCompletion",
+          "reward": "Unlocks Bearded Skull for purchase."
+        },
+        {
+          "DisplayName": "Rolling Bones",
+          "rewardType": "atCompletion",
+          "reward": "Unlocks Crimson Bones for purchase."
+        },
+        {
+          "DisplayName": "The Flame Never Dies",
+          "rewardType": "atCompletion",
+          "reward": "Unlocks Two-Tone Bones for purchase."
+        },
+        {
+          "DisplayName": "My Booming Bones",
+          "rewardType": "atCompletion",
+          "reward": "Unlocks Short-Fuse Skull for purchase."
+        },
+        {
+          "DisplayName": "Boo Be Gone!",
+          "rewardType": "atCompletion",
+          "reward": "Unlocks Rib Caged Upper Body and Concealed Upper Body for purchase."
+        },
+        {
+          "DisplayName": "One of the Crew",
+          "rewardType": "atCompletion",
+          "reward": "Unlocks Swag Shorts Lower Body for purchase."
+        },
+        {
+          "DisplayName": "Afeared of No Ghost",
+          "rewardType": "atCompletion",
+          "reward": "Unlocks Blindfolded Skull for purchase."
         }
       ]
     }
