@@ -300,6 +300,20 @@
   },
   "BilgeRats": {
     "Campaigns": {
+      "wild-seas": {
+        "Emblems": [
+          {
+            "DisplayName": "Hunter of the Feared Redmaw",
+            "rewardType": "atCompletion",
+            "reward": "Rewards the Hunter of the Feared Redmaw Title."
+          },
+          {
+            "DisplayName": "Hunter of the Barnacled Dread",
+            "rewardType": "atCompletion",
+            "reward": "Rewards the Hunter of the Barnacled Dread Title."
+          }
+        ]
+      },
       "pirates-of-mischief": {
         "Emblems": [
           {
@@ -877,6 +891,10 @@
               {
                 "grade": 6,
                 "reward": "Unlocks Regal Fortune Figurehead, Hull, and Sails for purchase."
+              },
+              {
+                "grade": 7,
+                "reward": "Unlocks Regal Fortune Set clothing for purchase."
               }
             ]
           },
@@ -907,6 +925,10 @@
               {
                 "grade": 6,
                 "reward": "Unlocks Regal Fortune Cutlass, Pistol and Double Barrel Pistol for purchase."
+              },
+              {
+                "grade": 7,
+                "reward": "Unlocks Regal Fortune Eyepatch, Hook, Pegleg, and Tattoo for purchase."
               }
             ]
           }
@@ -2222,12 +2244,81 @@
           "DisplayName": "Merchant Alliance Ransacked",
           "rewardType": "atCompletion",
           "reward": "Unlocks Disgraced Merchant Alliance Hat for purchase."
+        },
+        {
+          "DisplayName": "Hunter's Call Hounded",
+          "rewardType": "atCompletion",
+          "reward": "Unlocks Disgraced Hunter’s Hat for purchase."
         }
      ]
     }
   },
   "HuntersCall": {
     "Campaigns": {
+      "call-of-the-hunter": {
+        "Emblems": [
+          {
+            "DisplayName": "Call of the Hunter",
+            "rewardType": "atCompletion",
+            "reward": "Rewards the Call of the Hunter Title."
+          },
+          {
+            "DisplayName": "Hunter of Gilded Reward",
+            "rewardType": "atCompletion",
+            "reward": "Rewards the Hunter of Gilded Reward Title."
+          },
+          {
+            "DisplayName": "Hunter of the Wide Sea",
+            "rewardType": "atCompletion",
+            "reward": "Rewards the Hunter of the Wide Sea Title."
+          },
+          {
+            "DisplayName": "Hunter of Treasured Fish",
+            "rewardType": "atCompletion",
+            "reward": "Rewards the Hunter of Treasured Fish Title."
+          },
+          {
+            "DisplayName": "Hunter of Scaly Shoals",
+            "rewardType": "atCompletion",
+            "reward": "Rewards the Hunter of Scaly Shoals Title."
+          },
+          {
+            "DisplayName": "Hunter of Deathly Smiles",
+            "rewardType": "atCompletion",
+            "reward": "Rewards the Hunter of Deathly Smiles Title."
+          },
+          {
+            "DisplayName": "Hunter of Ocean Luminescence",
+            "rewardType": "atCompletion",
+            "reward": "Rewards the Hunter of Ocean Luminescence Title."
+          },
+          {
+            "DisplayName": "Hunter of Beastly Reach",
+            "rewardType": "atCompletion",
+            "reward": "Rewards the Hunter of Beastly Reach Title."
+          },
+          {
+            "DisplayName": "Hunter of Deadly Allure",
+            "rewardType": "atCompletion",
+            "reward": "Rewards the Hunter of Deadly Allure Title."
+          },
+          {
+            "DisplayName": "Hunter of Buoyant Bounty",
+            "rewardType": "atCompletion",
+            "reward": "Rewards the Hunter of Buoyant Bounty Title."
+          },
+          {
+            "DisplayName": "Hunter of Barbed Stealth",
+            "rewardType": "atCompletion",
+            "reward": "Rewards the Hunter of Barbed Stealth Title."
+          },
+          {
+            "DisplayName": "Hunter of Targeted Terror",
+            "rewardType": "atCompletion",
+            "reward": "Rewards the Hunter of Targeted Terror Title."
+          }
+        ]
+      },
       "splashtails": {
         "Emblems": [
           {
