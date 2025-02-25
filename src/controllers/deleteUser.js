@@ -6,16 +6,20 @@ const deleteUser = async (req, res) => {
   
   try {
     const deletingUserProfile = await User.findById(req.auth.userId)
-    
-    const validPassword = await bcrypt.compare(req.body.password, deletingUserProfile.password)
-        if (!validPassword) {
-          return res.status(401).json({ message: 'Incorrect password!' });
-        }
-
 
     if (!deletingUserProfile) {
-      return res.status(404).json({ message: 'User not found' })
+      return res.status(404).json({ message: 'User not found.' })
     }
+
+    if (!req.body.password) {
+      return res.status(400).json({ message: 'You must enter a password for this operation.' });
+    }
+
+    const validPassword = await bcrypt.compare(req.body.password, deletingUserProfile.password)
+    if (!validPassword) {
+      return res.status(401).json({ message: 'Incorrect password!' })
+    }
+
 
     const deletingUserData = await UserData.findOne({ userId: req.auth.userId })
 
