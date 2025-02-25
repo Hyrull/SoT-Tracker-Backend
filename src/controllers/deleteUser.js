@@ -3,8 +3,15 @@ const UserData = require('../models/userData.js')
 
 const deleteUser = async (req, res) => {
 
+  
   try {
     const deletingUserProfile = await User.findById(req.auth.userId)
+    
+    const validPassword = await bcrypt.compare(req.body.password, deletingUserProfile.password)
+        if (!validPassword) {
+          return res.status(401).json({ message: 'Incorrect password!' });
+        }
+
 
     if (!deletingUserProfile) {
       return res.status(404).json({ message: 'User not found' })
