@@ -1,3 +1,4 @@
+const bcrypt = require('bcrypt')
 const User = require('../models/user.js')
 const UserData = require('../models/userData.js')
 
