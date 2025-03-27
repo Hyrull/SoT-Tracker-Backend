@@ -305,12 +305,47 @@
           {
             "DisplayName": "Hunter of the Feared Redmaw",
             "rewardType": "atCompletion",
-            "reward": "Rewards the Hunter of the Feared Redmaw Title."
+            "reward": "Rewards the Hunter of the Feared Redmaw Title, and the Eternal Hunt Cannons for purchase."
+          },
+          {
+            "DisplayName": "Friendly Fire",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the Eternal Hunt Wheel for purchase."
+          },
+          {
+            "DisplayName": "Master Hunter of the Feared Redmaw",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the Eternal Hunt Hull for purchase."
           },
           {
             "DisplayName": "Hunter of the Barnacled Dread",
             "rewardType": "atCompletion",
-            "reward": "Rewards the Hunter of the Barnacled Dread Title."
+            "reward": "Rewards the Hunter of the Barnacled Dread Title, and the Eternal Hunt Capstan for purchase."
+          },
+          {
+            "DisplayName": "Dark Tides Defeat",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the Eternal Hunt Flag for purchase."
+          },
+          {
+            "DisplayName": "Master Hunter of the Barnacled Dread",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the Eternal Hunt Figurehead for purchase."
+          },
+          {
+            "DisplayName": "Hunter of Ancient Sea Beasts",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the Eternal Hunt Sails for purchase."
+          },
+          {
+            "DisplayName": "Sea Beast Spear Hunter",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the Barnacled Beast Heavy Sword for purchase."
+          },
+          {
+            "DisplayName": "Impaled Vessels of the Waves",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the Ocean's Myth Rapier for purchase."
           }
         ]
       },
