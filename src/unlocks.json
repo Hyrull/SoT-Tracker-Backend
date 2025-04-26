@@ -346,6 +346,16 @@
             "DisplayName": "Impaled Vessels of the Waves",
             "rewardType": "atCompletion",
             "reward": "Unlocks the Ocean's Myth Rapier for purchase."
+          },
+          {
+            "DisplayName": "Master of Impaling Impact",
+            "rewardType": "atCompletion",
+            "reward": "Rewards the Master of Impaling Impact title, and the Jagged Jaws Throwing Knives for purchase."
+          },
+          {
+            "DisplayName": "Wildest Seas World-Beater",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the Wild Seas Curse."
           }
         ]
       },
