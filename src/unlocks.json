@@ -2323,6 +2323,36 @@
             "reward": "Rewards the Hunter of Treasured Fish Title."
           },
           {
+            "DisplayName": "Hunter of the Savage Boar",
+            "rewardType": "atCompletion",
+            "reward": "Rewards the Hunter of the Savage Boar Title."
+          },
+          {
+            "DisplayName": "Master Hunter of the Savage Boar",
+            "rewardType": "atCompletion",
+            "reward": "Rewards the Master Hunter of the Savage Boar Title."
+          },
+          {
+            "DisplayName": "Hunter of the Grisly Maw",
+            "rewardType": "atCompletion",
+            "reward": "Rewards the Hunter of the Grisly Maw Title."
+          },
+          {
+            "DisplayName": "Master Hunter of the Pristine Maw",
+            "rewardType": "atCompletion",
+            "reward": "Rewards the Master Hunter of the Pristine Maw Title."
+          },
+          {
+            "DisplayName": "Hunter of Grisly Megalodon Spoils",
+            "rewardType": "atCompletion",
+            "reward": "Rewards the Hunter of Grisly Megalodon Spoils Title."
+          },
+          {
+            "DisplayName": "Master Hunter of Pristine Megalodon Spoils",
+            "rewardType": "atCompletion",
+            "reward": "Rewards the Master Hunter of Pristine Megalodon Spoils Title."
+          },
+          {
             "DisplayName": "Hunter of Scaly Shoals",
             "rewardType": "atCompletion",
             "reward": "Rewards the Hunter of Scaly Shoals Title."
