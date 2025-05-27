@@ -300,6 +300,70 @@
   },
   "BilgeRats": {
     "Campaigns": {
+      "reapers-rising": {
+        "Emblems": [
+          {
+            "DisplayName": "Bony Bodyguard",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the 'Resurrection of Secrets' ornament for purchase."
+          },
+          {
+            "DisplayName": "Dastardly Desecration",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the Reaper's Bones Belt, Boots, Dress, Gloves, Jacket, Shirt and Trousers for purchase, alongside their Reaper's Bones reputation requirements."
+          },
+          {
+            "DisplayName": "Rusty Rescuer",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the Reaper Hook and Reaper Pegleg for purchase, alongside their Reaper's Bones reputation requirements."
+          },
+          {
+            "DisplayName": "Crew of Bone and Blade",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the Reaper's Bones Bucket, Compass, Fishing Rod, Lantern, Pocket Watch, Shovel, Speaking Trumpet, Spyglass and Tankard for purchase."
+          },
+          {
+            "DisplayName": "Mobile Cannoneer",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the Reaper's Bones Blowpipe, Blunderbuss, Cutlass, Double Barrel Pistol, Eye of Reach, Grapple Gun, Pistol and Throwing Knives for purchase, alongside their Reaper's Bones reputation requirements."
+          },
+          {
+            "DisplayName": "Skeletal Sabotage",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the Order of Bone and Blade Captain's Lower Body and Order of Bone and Blade Lower Body for purchase, alongside their Servants of the Flame allegiance requirements."
+          },
+          {
+            "DisplayName": "Masterful Tactics",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the Order of Bone and Blade Captain's Upper Body and Order of Bone and Blade Upper Body for purchase, alongside their Servant of the Flame allegiance requirements."
+          },
+          {
+            "DisplayName": "Reaper Rivals",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the Order of Bone and Blade Captain's Skull and Order of Bone and Blade Skull for purchase, alongside their Servant of the Flame allegiance requirements."
+          },
+          {
+            "DisplayName": "Bony Bandit",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the Rusted Raw Bones for purchase, alongside its Servant of the Flame allegiance requirement."
+          },
+          {
+            "DisplayName": "Bone vs Blade",
+            "rewardType": "atCompletion",
+            "reward": "Rewards the Servant of Rage Title."
+          },
+          {
+            "DisplayName": "Rusty Rollick",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the 'Essence of Red Death' ornament for purchase."
+          },
+          {
+            "DisplayName": "Devious Dinghy",
+            "rewardType": "atCompletion",
+            "reward": "Rewards the Master of Devious Oars Title."
+          }
+        ]
+      },
       "wild-seas": {
         "Emblems": [
           {
@@ -915,31 +979,35 @@
             "reward_graded": [
               {
                 "grade": 1,
-                "reward": "Unlocks Fates of Fortune Figurehead, Hull, and Sails for purchase."
+                "reward": "Unlocks the Fates of Fortune Figurehead, Hull, and Sails for purchase."
               },
               {
                 "grade": 2,
-                "reward": "Unlocks Fates of Fortune Set clothing for purchase."
+                "reward": "Unlocks the Fates of Fortune Set clothing for purchase."
               },
               {
                 "grade": 3,
-                "reward": "Unlocks Chest of Fortune Disguise (in conjunction with Bewildering Blowpipes), Fates of Fortune Cannons, Flag, Capstan, and Wheel for purchase."
+                "reward": "Unlocks the Chest of Fortune Disguise (in conjunction with Bewildering Blowpipes), Fates of Fortune Cannons, Flag, Capstan, and Wheel for purchase."
               },
               {
                 "grade": 4,
-                "reward": "Unlocks Fates of Fortune Lantern, Spyglass, Compass, and Bucket for purchase."
+                "reward": "Unlocks the Fates of Fortune Lantern, Spyglass, Compass, and Bucket for purchase."
               },
               {
                 "grade": 5,
-                "reward": "Unlocks Fates of Fortune Fishing Rod, Shovel, Pocket Watch, Tankard, and Speaking Trumpet for purchase."
+                "reward": "Unlocks the Fates of Fortune Fishing Rod, Shovel, Pocket Watch, Tankard, and Speaking Trumpet for purchase."
               },
               {
                 "grade": 6,
-                "reward": "Unlocks Regal Fortune Figurehead, Hull, and Sails for purchase."
+                "reward": "Unlocks the Regal Fortune Figurehead, Hull, and Sails for purchase."
               },
               {
                 "grade": 7,
-                "reward": "Unlocks Regal Fortune Set clothing for purchase."
+                "reward": "Unlocks the Regal Fortune Set clothing for purchase."
+              },
+              {
+                "grade": 8,
+                "reward": "Unlocks the Regal Fortune Cannons, Capstan, Wheel and Flag for purchase."
               }
             ]
           },
@@ -949,31 +1017,35 @@
             "reward_graded": [
               {
                 "grade": 1,
-                "reward": "Unlocks Fates of Fortune Cutlass and Pistol for purchase."
+                "reward": "Unlocks the Fates of Fortune Cutlass and Pistol for purchase."
               },
               {
                 "grade": 2,
-                "reward": "Unlocks Fates of Fortune Eyepatch, Hook, Pegleg, and Tattoo for purchase."
+                "reward": "Unlocks the Fates of Fortune Eyepatch, Hook, Pegleg, and Tattoo for purchase."
               },
               {
                 "grade": 3,
-                "reward": "Unlocks Fates of Fortune Blunderbuss, and Eye of Reach for purchase."
+                "reward": "Unlocks the Fates of Fortune Blunderbuss, and Eye of Reach for purchase."
               },
               {
                 "grade": 4,
-                "reward": "Unlocks Fates of Fortune Banjo, and Drum for purchase."
+                "reward": "Unlocks the Fates of Fortune Banjo, and Drum for purchase."
               },
               {
                 "grade": 5,
-                "reward": "Unlocks Fates of Fortune Hurdy-Gurdy, Concertina, and Scar for purchase."
+                "reward": "Unlocks the Fates of Fortune Hurdy-Gurdy, Concertina, and Scar for purchase."
               },
               {
                 "grade": 6,
-                "reward": "Unlocks Regal Fortune Cutlass, Pistol and Double Barrel Pistol for purchase."
+                "reward": "Unlocks the Regal Fortune Cutlass, Pistol and Double Barrel Pistol for purchase."
               },
               {
                 "grade": 7,
-                "reward": "Unlocks Regal Fortune Eyepatch, Hook, Pegleg, and Tattoo for purchase."
+                "reward": "Unlocks the Regal Fortune Eyepatch, Hook, Pegleg, and Tattoo for purchase."
+              },
+              {
+                "grade": 8,
+                "reward": "Unlocks the Regal Fortune Blunderbuss, Eye of Reach and Throwing Knives for purchase."
               }
             ]
           }
