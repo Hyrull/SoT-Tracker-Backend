@@ -3,6 +3,7 @@ const UserData = require('../models/userData')
 
 const { emblemUpdate } = require('../services/emblemUpdate')
 const { ledgersUpdate } = require('../services/ledgersUpdate')
+const { profOverviewUpdate } = require('../services/profOverviewUpdate')
 
 const dataUpdate = async (req, res) => {
   try {
@@ -14,24 +15,31 @@ const dataUpdate = async (req, res) => {
 
 
       // Calling the services to update it all
-    const [commendations, ledgers] = await Promise.all([
+    const [commendations, ledgers, overview] = await Promise.all([
       emblemUpdate(ratToken),
-      ledgersUpdate(ratToken)
+      ledgersUpdate(ratToken),
+      profOverviewUpdate(ratToken)
     ])
 
      // Get to the right user data
     const userData = await UserData.findOne({ userId: req.auth.userId })
     if (!userData) return res.status(404).json({ message: 'Your local data was not found' })
 
+    // Updating commendations data
     userData.sotData = commendations
-    // Failproof, in case the user has no ledgers yet
+
+    // Failproof, in case the user has no ledgers or overview yet
     if (!userData.sotLedgers) userData.sotLedgers = new Map()
+    if (!userData.overview) userData.overview = new Map()
 
     // Updating ledgers data
     for (const [faction, data] of Object.entries(ledgers)) {
       userData.sotLedgers.set(faction, data)
     }
     userData.lastUpdated = new Date().toISOString()
+
+    // Updating overview data
+    userData.overview = overview
 
     await userData.save()
 
