@@ -8,7 +8,7 @@ const API_URL = 'https://www.seaofthieves.com/api/ledger/global'
  * @returns {Promise<object>} - The reputation data
  */
 
-const fetchLedgerData = async (ratToken, faction) => {
+const fetchLedgersData = async (ratToken, faction) => {
   console.log('Fetching ledger data for faction:', faction)
   try {
     const response = await axios.get(`${API_URL}/${faction}`, {
@@ -37,4 +37,4 @@ const fetchLedgerData = async (ratToken, faction) => {
   }
 }
 
-module.exports = { fetchLedgerData }
+module.exports = { fetchLedgersData }
