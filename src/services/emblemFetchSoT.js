@@ -9,6 +9,7 @@ const API_URL = 'https://www.seaofthieves.com/api/profilev2/reputation'
  */
 
 const fetchReputationData = async (ratToken) => {
+  console.log('Fetching reputation data...')
   try {
     const response = await axios.get(API_URL, {
       headers: {

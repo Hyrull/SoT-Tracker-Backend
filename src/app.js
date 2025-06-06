@@ -1,7 +1,7 @@
 require('dotenv').config()
 const express = require('express')
 const mongoose = require('mongoose')
-const emblemRoutes = require('./routes/emblemRoutes')
+const dataRoutes = require('./routes/dataRoutes')
 const userRoutes = require('./routes/userRoutes')
 
 const app = express()
@@ -20,7 +20,7 @@ app.use((req, res, next) => {
 })
 
 // ROUTES
-app.use('/api/emblems', emblemRoutes)
+app.use('/api/data', dataRoutes)
 app.use('/api/auth', userRoutes)
 
 module.exports = app

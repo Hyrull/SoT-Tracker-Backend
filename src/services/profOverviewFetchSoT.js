@@ -9,6 +9,7 @@ const API_URL = 'https://www.seaofthieves.com/api/profilev2/overview'
  */
 
 const fetchOverviewData = async (ratToken) => {
+  console.log('Fetching profile overview data...')
   try {
     const response = await axios.get(API_URL, {
       headers: {
