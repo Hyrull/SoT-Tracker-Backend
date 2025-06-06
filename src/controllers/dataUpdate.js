@@ -1,5 +1,5 @@
-const { fetchReputationData } = require('../services/emblemFetchSoT')
-const User = require('../models/user')
+const { fetchReputationData } = require('../services/emblemFetchSoT.js')
+const User = require('../models/user.js')
 const UserData = require('../models/userData.js')
 const _ = require('lodash')
 
@@ -22,7 +22,7 @@ const factionOrder = [
   'Flameheart',
 ]
 
-const emblemUpdate = async (req, res) => {
+const dataUpdate = async (req, res) => {
 
   try {
     // Fetch the user from the database
@@ -99,4 +99,4 @@ const emblemUpdate = async (req, res) => {
   }
 }
 
-module.exports = { emblemUpdate }
+module.exports = { dataUpdate }
