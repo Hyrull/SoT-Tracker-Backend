@@ -11,6 +11,11 @@ const userDataSchema = mongoose.Schema({
         of: mongoose.Schema.Types.Mixed,
         required: false,
     },
+    sotLedgers: {
+        type: Map,
+        of: mongoose.Schema.Types.Mixed,
+        required: false,
+    },
     lastUpdated: {
         type: Date,
         required: true,

@@ -1,4 +1,6 @@
 const { fetchReputationData } = require('../services/emblemFetchSoT.js')
+const { fetchLedgerData } = require('../services/ledgerFetchSoT.js')
+
 const User = require('../models/user.js')
 const UserData = require('../models/userData.js')
 const _ = require('lodash')
@@ -22,6 +24,15 @@ const factionOrder = [
   'Flameheart',
 ]
 
+const ledgerFactions = [
+  'GoldHoarders',
+  'OrderOfSouls',
+  'MerchantAlliance',
+  'AthenasFortune',
+  'ReapersBones',
+  'HuntersCall',
+]
+
 const dataUpdate = async (req, res) => {
 
   try {
@@ -37,6 +48,26 @@ const dataUpdate = async (req, res) => {
       return res.status(400).json({ message: "No RAT token could be found on your account." })
     }
 
+    // Fetch the ledger data first (loop: does it for each faction from ledgerFactions)
+    const ledgerPromises = ledgerFactions.map(faction =>
+      fetchLedgerData(ratToken, faction)
+        .then(data => ({ faction, data }))
+        .catch(err => {
+          console.warn(`Failed to fetch ledger for ${faction}:`, err.message)
+          return null
+        })
+    )
+
+    // Wait for all ledger promises to be done and then we can process them
+    const ledgerResults = await Promise.allSettled(ledgerPromises)
+
+    const ledgers = {}
+    for (const result of ledgerResults) {
+      if (result.status === 'fulfilled' && result.value) {
+        const { faction, data } = result.value
+        ledgers[faction] = data
+      }
+    }
 
     // Fetching the reputation data from SoT
     const data = await fetchReputationData(ratToken)
@@ -75,6 +106,17 @@ const dataUpdate = async (req, res) => {
    const userData = await UserData.findOne({ userId: req.auth.userId })
    if (!userData) {
     return res.status(404).json({ message: 'Your local data was not found' })
+  }
+
+  // Quick check if the sotData exists & is a map - if not, we create it
+  if (!(userData.sotLedgers instanceof Map)) {
+    console.log('Reinitializing sotLedgers as Map')
+    userData.sotLedgers = new Map()
+  }
+
+  // Updating the ledgers - for loop, D.R.Y.
+  for (const [faction, data] of Object.entries(ledgers)) {
+    userData.sotLedgers.set(faction, data)
   }
 
   // Updating the data!

@@ -1,6 +1,6 @@
 const axios = require('axios')
 
-const API_URL = 'https://www.seaofthieves.com/api/profilev2/reputation'
+const API_URL = 'https://www.seaofthieves.com/api/ledger/global'
 
 /**
  * Fetch reputation data from the API
@@ -8,9 +8,10 @@ const API_URL = 'https://www.seaofthieves.com/api/profilev2/reputation'
  * @returns {Promise<object>} - The reputation data
  */
 
-const fetchLedgerData = async (ratToken) => {
+const fetchLedgerData = async (ratToken, faction) => {
+  console.log('Fetching ledger data for faction:', faction)
   try {
-    const response = await axios.get(API_URL, {
+    const response = await axios.get(`${API_URL}/${faction}`, {
       headers: {
         'Cookie': `rat=${ratToken}`,
         'Referer': 'https://www.seaofthieves.com/',
