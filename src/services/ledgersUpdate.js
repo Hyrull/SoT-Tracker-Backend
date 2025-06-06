@@ -1,6 +1,13 @@
 const { fetchLedgersData } = require('./ledgersFetchSoT')
 
-const ledgerFactions = [/* ... */]
+const ledgerFactions = [
+  'GoldHoarders',
+  'OrderOfSouls',
+  'MerchantAlliance',
+  'AthenasFortune',
+  'ReapersBones',
+  'HuntersCall',
+]
 
 async function ledgersUpdate(ratToken) {
 
