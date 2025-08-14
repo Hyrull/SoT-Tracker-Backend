@@ -300,6 +300,76 @@
   },
   "BilgeRats": {
     "Campaigns": {
+      "smugglers'-tide": {
+        "Emblems": [
+          {
+            "DisplayName": "Bootlegger of Black Powder Barrels",
+            "rewardType": "atCompletion",
+            "reward": "Rewards the 'Strength and Smoke' trinket for purchase."
+          },
+          {
+            "DisplayName": "Legendary Commendation: Revered Rum Runner",
+            "rewardType": "atCompletion",
+            "reward": "Rewards the 'A Taste of Darkness, Greed and Fate' trinket for purchase."
+          },
+          {
+            "DisplayName": "Gilded Fox Chronicler",
+            "rewardType": "atCompletion",
+            "reward": "Rewards the 'Fox of Guile' trinket for purchase."
+          },
+          {
+            "DisplayName": "Shadow Current Chronicler",
+            "rewardType": "atCompletion",
+            "reward": "Rewards the 'Current of Darkness' trinket for purchase."
+          },
+          {
+            "DisplayName": "Wolf in Winter Chronicler",
+            "rewardType": "atCompletion",
+            "reward": "Rewards the 'Wolf of Strength' trinket for purchase."
+          },
+          {
+            "DisplayName": "Sapphire Steel Chronicler",
+            "rewardType": "atCompletion",
+            "reward": "Rewards the 'Steel of Waves' trinket for purchase."
+          },
+          {
+            "DisplayName": "Legendary Commendation: Fine Art Felon",
+            "rewardType": "atCompletion",
+            "reward": "Rewards 'The Fabled Four' trinket for purchase."
+          },
+          {
+            "DisplayName": "Smugglers' Runner",
+            "rewardType": "perGrade",
+            "reward_graded": [
+              {
+                "grade": 1,
+                "reward": "Unlocks the Smugglers' Belt for purchase."
+              },
+              {
+                "grade": 2,
+                "reward": "Unlocks the Smugglers' Gloves for purchase."
+              },
+              {
+                "grade": 3,
+                "reward": "Unlocks the Smugglers' Boots for purchase."
+              },
+              {
+                "grade": 4,
+                "reward": "Unlocks the Smugglers' Trousers for purchase."
+              },
+              {
+                "grade": 5,
+                "reward": "Unlocks the Smugglers' Jacket for purchase."
+              }
+            ]
+          },
+          {
+            "DisplayName": "Smugglers' Secret Scrawlings",
+            "rewardType": "atCompletion",
+            "reward": "Rewards the Smugglers' League Illicit Ink Tattoo for purchase."
+          }
+        ]
+      },
       "reapers-rising": {
         "Emblems": [
           {
@@ -1007,6 +1077,10 @@
               },
               {
                 "grade": 8,
+                "reward": "Unlocks the Regal Fortune Latern, Spyglass, Compass and Bucket for purchase."
+              },
+              {
+                "grade": 9,
                 "reward": "Unlocks the Regal Fortune Cannons, Capstan, Wheel and Flag for purchase."
               }
             ]
@@ -1046,6 +1120,10 @@
               {
                 "grade": 8,
                 "reward": "Unlocks the Regal Fortune Blunderbuss, Eye of Reach and Throwing Knives for purchase."
+              },
+              {
+                "grade": 9,
+                "reward": "Unlocks the Regal Fortune Banjo and Drum for purchase."
               }
             ]
           }
