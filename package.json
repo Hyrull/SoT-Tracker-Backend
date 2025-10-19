@@ -16,6 +16,7 @@
     "jsonwebtoken": "^9.0.2",
     "lodash": "^4.17.21",
     "mongoose": "^8.9.2",
-    "mongoose-unique-validator": "^5.0.1"
+    "mongoose-unique-validator": "^5.0.1",
+    "nodemon": "^3.1.10"
   }
 }
