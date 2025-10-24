@@ -367,6 +367,75 @@
             "DisplayName": "Smugglers' Secret Scrawlings",
             "rewardType": "atCompletion",
             "reward": "Rewards the Smugglers' League Illicit Ink Tattoo for purchase."
+          },
+          {
+            "DisplayName": "Revered Rum Runner",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the 'A Taste of Darkness, Greed and Fate' trinket for purchase."
+          },
+          {
+            "DisplayName": "Smugglers' Route Runner",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the Black Powder Barrel Disguise for purchase."
+          },
+          {
+            "DisplayName": "Super Smuggler",
+            "rewardType": "atCompletion",
+            "reward": "Rewards the Super Smuggler Title."
+          },
+          {
+            "DisplayName": "Breaker of the Brethren",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the 'Brethren of Shadow' trinket for purchase."
+          },
+          {
+            "DisplayName": "Order of Bone and Slayed",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the 'Gaunt and Gnarled' trinket for purchase."
+          },
+          {
+            "DisplayName": "Wrecker of Reaper Fortresses",
+            "rewardType": "perGrade",
+            "reward_graded": [
+              {
+                "grade": 1,
+                "reward": "Unlocks the Wrecker of Reaper Fortresses for purchase."
+              },
+              {
+                "grade": 2,
+                "reward": "Unlocks the Brethren's Masquerade Sails for purchase."
+              },
+              {
+                "grade": 3,
+                "reward": "Unlocks the Brethren's Masquerade Flag for purchase."
+              },
+              {
+                "grade": 4,
+                "reward": "Unlocks the Brethren's Masquerade Cannons for purchase."
+              },
+              {
+                "grade": 5,
+                "reward": "Unlocks the Brethren's Masquerade Wheel for purchase."
+              },
+              {
+                "grade": 6,
+                "reward": "Unlocks the Brethren's Masquerade Capstan for purchase."
+              },
+              {
+                "grade": 7,
+                "reward": "Unlocks the Brethren's Masquerade Figurehead for purchase."
+              }
+            ]
+          },
+          {
+            "DisplayName": "Legendary Commendation: Captain of Smugglers' Tides",
+            "rewardType": "atCompletion",
+            "reward": "Rewards the Captain of Smugglers' Tides Title and unlocks 'The Smugglers' Run' trinket for purchase."
+          },
+          {
+            "DisplayName": "Legendary Commendation: Vanquisher of Bone and Brethren",
+            "rewardType": "atCompletion",
+            "reward": "Rewards the Vanquisher of Bone and Brethren Title."
           }
         ]
       },
