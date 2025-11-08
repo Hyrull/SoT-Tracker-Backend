@@ -8,9 +8,14 @@ const emblemListGet = async (req, res) => {
       return res.status(404).json({ message: 'User not found' })
     }
 
+    if (!user.sotData || Object.keys(user.sotData).length === 0) {
+      return res.status(204).end() // No content. Happens when a fresh account didn't import any data. frontend handles this
+    }
+
     return res.status(200).json(user.sotData)
   
   } catch (error) {
+    console.error('Error fetching commendations:', error)
     res.status(500).json({ message: 'Error fetching your commendations' })
   }
 }
