@@ -1,5 +1,11 @@
 const mongoose = require('mongoose')
 
+const pinnedSchema = new mongoose.Schema({
+    faction: { type: String, required: true },
+    emblem: { type: String, required: true },
+    campaign: { type: String, required: false }
+}, { _id: false }) // we dont need subid for every pinned emblem
+
 const userDataSchema = mongoose.Schema({
     userId: {
         type: String,
@@ -20,6 +26,11 @@ const userDataSchema = mongoose.Schema({
     type: Map,
     of: mongoose.Schema.Types.Mixed,
     required: false,
+    },
+    pinned: {
+        type: [pinnedSchema],
+        required: false,
+        default: []
     },
     lastUpdated: {
         type: Date,
