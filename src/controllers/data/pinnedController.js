@@ -87,41 +87,58 @@ exports.addPinned = async (req, res) => {
 exports.removePinned = async (req, res) => {
   try {
     const { faction, emblem, campaign } = req.body
-    const user = await UserData.findOne({ userId: req.auth.userId })
 
+    // Validate required fields - now requires the name
+    if (!emblem) {
+      return res.status(400).json({ 
+        error: 'Missing required field: emblem is required' 
+      })
+    }
+
+    const user = await UserData.findOne({ userId: req.auth.userId })
+    
     if (!user) {
       return res.status(404).json({ error: 'User not found' })
     }
-    
+
+    // failproof if user has no pinned section (even if empty)
     if (!user.pinned) {
       user.pinned = []
     }
 
     // this'll come in handy - we'll check the before/after length to verify
     const initialLength = user.pinned.length
-    
-    user.pinned = user.pinned.filter(p =>
-      !(p.faction === faction &&
-        p.emblem === emblem &&
-        p.campaign === campaign)
-      )
 
-      // Check if anything was actually removed
-      if (user.pinned.length === initialLength) {
+    // If faction/campaign provided, match exactly (backward compatibility)
+    // Otherwise, match only by emblem name
+    if (faction) {
+      user.pinned = user.pinned.filter(p =>
+        !(p.faction === faction &&
+          p.emblem === emblem &&
+          p.campaign === campaign)
+      )
+    } else {
+      // Match only by emblem name
+      user.pinned = user.pinned.filter(p => p.emblem !== emblem)
+    }
+
+    // Check if anything was actually removed
+    if (user.pinned.length === initialLength) {
           // 404: Not found - item didn't exist
-          return res.status(404).json({ 
-              error: 'Pinned commendation not found',
-              pinned: user.pinned 
-          })
-      }
-      
-      await user.save()
-      res.status(200).json({ 
-        message: 'Item unpinned successfully',
+      return res.status(404).json({ 
+        error: 'Pinned commendation not found',
         pinned: user.pinned 
       })
+    }
+
+    await user.save()
+
+    res.status(200).json({ 
+      message: 'Commendation unpinned successfully',
+      pinned: user.pinned 
+    })
     } catch(error) {
       console.error("Error removing pinned: " + error)
-      res.status(500).json({ error: 'Internal server error' })
-    }
+    res.status(500).json({ error: 'Internal server error' })
+  }
 }
