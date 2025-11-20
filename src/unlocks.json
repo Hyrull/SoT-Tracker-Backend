@@ -1937,20 +1937,6 @@
             "reward": "Rewards the Legend of Thieves' Haven Title."
           }
         ]
-      },
-      "the-hungering-deep": {
-        "Emblems": [
-          {
-            "DisplayName": "Find Merrick's Journals",
-            "rewardType": "atCompletion",
-            "reward": "Rewards the Shark Hunter Title."
-          },
-          {
-            "DisplayName": "Defeated the Hungering One",
-            "rewardType": "atCompletion",
-            "reward": "Rewards the Shark Slayer Title."
-          }
-        ]
       }
     }
   },
