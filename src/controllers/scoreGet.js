@@ -1,21 +1,23 @@
 // controllers/scoreGet.js
-const UserData = require('../models/userData');
+const UserData = require('../models/userData')
 
 const scoreGet = async (req, res) => {
-  const userId = req.auth.userId;
+  const userId = req.auth.userId
+  const username = req.auth.nickname
   
   try {
-    const userData = await UserData.findOne({ userId });
+    const userData = await UserData.findOne({ userId })
     
     if (!userData) {
-      return res.status(404).json({ success: false, error: 'User not found' });
+      return res.status(404).json({ success: false, error: 'User not found' })
     }
     
     // If no data yet, return zeros
     if (!userData.sotData || Object.keys(userData.sotData).length === 0) {
       return res.status(200).json({
+        username: username,
         success: true,
-        currentScore: 83,
+        currentScore: 0,
         maximumScore: 0,
         percentage: 0 // probably won't use it, but good to have
       })
@@ -23,9 +25,8 @@ const scoreGet = async (req, res) => {
 
     // if no score calculated, init it
     if (!userData.score) {
-      console.log('scoreGet - no score noticed!')
       userData.score = { current: 0, maximum: 0 }
-      userData.save
+      await userData.save
     }
     
     // Return the pre-calculated score
@@ -36,6 +37,7 @@ const scoreGet = async (req, res) => {
       : 0
     
     return res.json({
+      username: username,
       success: true,
       currentScore,
       maximumScore,

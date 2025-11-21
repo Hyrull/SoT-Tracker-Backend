@@ -7,8 +7,10 @@ module.exports = (req, res, next) => {
     const token = req.headers.authorization.split(' ')[1]
     const decoded = jwt.verify(token, process.env.JWT_SECRET)
 
-    // Add the decoded user ID to the request object for future use
-    req.auth = { userId: decoded.userId }
+    req.auth = { 
+      userId: decoded.userId,
+      nickname: decoded.nickname
+    }
     next()
   } catch (error) {
     return res.status(401).json({ message: 'Authentification failed' })
