@@ -9,11 +9,29 @@ const ledgerFactions = [
   'HuntersCall',
 ]
 
+// --- Retry helper with jitter ---
+async function withRetry(fn, faction, retries = 3) {
+  let lastErr
+  for (let i = 0; i < retries; i++) {
+    console.log(`Attempt ${i + 1} for faction ${faction}`)
+    try {
+      return await fn()
+    } catch (err) {
+      lastErr = err
+      if (i === retries - 1) break
+
+      const jitter = 200 + Math.random() * 400   // 200–600ms
+      await new Promise(res => setTimeout(res, jitter))
+    }
+  }
+  throw lastErr
+}
+
 async function ledgersUpdate(ratToken) {
 
   // Using the promises way to fetch all ledgers at once
   const ledgerPromises = ledgerFactions.map(faction =>
-    fetchLedgersData(ratToken, faction)
+    withRetry(() => fetchLedgersData(ratToken, faction), faction, 3)
       .then(data => ({ faction, data }))
       .catch(err => {
         console.warn(`Failed to fetch ledger for ${faction}:`, err.message)
@@ -32,6 +50,7 @@ async function ledgersUpdate(ratToken) {
     }
   }
 
+  console.log(ledgers)
   return ledgers
 }
 

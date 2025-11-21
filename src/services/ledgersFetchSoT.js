@@ -31,7 +31,7 @@ const fetchLedgersData = async (ratToken, faction) => {
       console.error('Redirect loop detected! Out of date rat token: ', err)
       throw { type: 'InvalidRatToken', message: 'Invalid rat token, please update it.' }
       } else {
-      console.error('Error fetching reputation data:', err)
+      console.error(`Error fetching reputation data for ${faction}!`, err)
       throw { type: 'FetchError', message: 'Error fetching ledger data.' }
     }
   }
