@@ -20,7 +20,7 @@ const dataUpdate = async (req, res) => {
       // Calling the services to update it all
     const [commendations, ledgers, overview] = await Promise.all([
       emblemUpdate(ratToken),
-      ledgersUpdate(ratToken),
+      // ledgersUpdate(ratToken),
       profOverviewUpdate(ratToken)
     ])
 
