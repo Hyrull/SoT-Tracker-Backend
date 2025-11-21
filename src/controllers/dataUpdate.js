@@ -4,6 +4,9 @@ const UserData = require('../models/userData')
 const { emblemUpdate } = require('../services/emblemUpdate')
 const { ledgersUpdate } = require('../services/ledgersUpdate')
 const { profOverviewUpdate } = require('../services/profOverviewUpdate')
+const { calculateAndSaveScore } = require('../services/calculateAndSaveScore')
+
+
 
 const dataUpdate = async (req, res) => {
   try {
@@ -31,6 +34,8 @@ const dataUpdate = async (req, res) => {
     // Failproof, in case the user has no ledgers or overview yet
     if (!userData.sotLedgers) userData.sotLedgers = new Map()
     if (!userData.overview) userData.overview = new Map()
+    if (!userData.score) userData.score = { current: 0, maximum: 0 }
+
 
     // Updating ledgers data
     for (const [faction, data] of Object.entries(ledgers)) {
@@ -41,9 +46,15 @@ const dataUpdate = async (req, res) => {
     // Updating overview data
     userData.overview = overview
 
+    // Updating achievement score
+    await calculateAndSaveScore(userData)
+
     await userData.save()
 
-    res.status(201).json({ message: 'Data updated successfully!' })
+    res.status(201).json({ 
+      message: 'Data updated successfully!',
+      score: userData.score // not sure i'll use this in the frontend because of how i structured react (score will be a useContext, rest is called in a page) but who knows
+    })
   } catch (err) {
     console.error('Error in dataUpdate:', err)
     if (err.type === 'InvalidRatToken') {

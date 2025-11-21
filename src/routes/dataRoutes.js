@@ -5,6 +5,7 @@ const emblemListCtrl = require('../controllers/emblemListGet')
 const overviewDataCtrl = require('../controllers/overviewDataGet')
 const ledgerDataCtrl = require('../controllers/ledgerDataGet')
 const pinnedCtrl = require('../controllers/data/pinnedController')
+const scoreGetCtrl = require('../controllers/scoreGet')
 const auth = require('../middlewares/auth')
 
 router.get('/emblems', auth, emblemListCtrl.emblemListGet)
@@ -14,5 +15,6 @@ router.patch('/update', auth, dataUpdateCtrl.dataUpdate)
 router.get('/pinned', auth, pinnedCtrl.getPinned)
 router.post('/pinned', auth, pinnedCtrl.addPinned)
 router.delete('/pinned', auth, pinnedCtrl.removePinned)
+router.get('/score', auth, scoreGetCtrl.scoreGet )
 
 module.exports = router

@@ -32,6 +32,18 @@ const userDataSchema = mongoose.Schema({
         required: false,
         default: []
     },
+    score: {
+        current: {
+            type: Number,
+            required: false,
+            default: 0
+        },
+        maximum: {
+            type: Number,
+            required: false,
+            default: 0
+        }
+    },
     lastUpdated: {
         type: Date,
         required: true,

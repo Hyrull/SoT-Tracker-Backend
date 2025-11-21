@@ -20,4 +20,20 @@ const emblemListGet = async (req, res) => {
   }
 }
 
-module.exports = { emblemListGet }
+
+// Same thing as above except it's for internal use and not an HTTP response
+const getUserEmblems = async (userId) => {
+  const user = await UserData.findOne({ userId })
+  
+  if (!user) {
+    throw new Error('USER_NOT_FOUND')
+  }
+
+  if (!user.sotData || Object.keys(user.sotData).length === 0) {
+    throw new Error('NO_DATA')
+  }
+
+  return user.sotData
+}
+
+module.exports = { emblemListGet, getUserEmblems }
