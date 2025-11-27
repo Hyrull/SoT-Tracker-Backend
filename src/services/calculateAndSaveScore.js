@@ -14,34 +14,35 @@ const calculateEmblemScore = (emblem) => {
     return { current: 0, maximum: 0 }
   }
   
-  // atCompletion emblems: return the score once
-  if (emblem.rewardType === 'atCompletion') {
-    const points = SCORE_LEVELS[scoreLevel]
-    return {
-      current: emblem.Completed ? points : 0,
-      maximum: points
-    }
-  }
+  const Grade = emblem.Grade || 0
+  const maxGrade = emblem.MaxGrade || emblem.reward_graded?.length || 0
+  const pointsPerGrade = SCORE_LEVELS[scoreLevel]
   
-  // perGrade emblems, check Grade and multiply: scoreLevel times current grade 
-  if (emblem.rewardType === 'perGrade') {
-    const Grade = emblem.Grade || 0
-    const maxGrade = emblem.MaxGrade || emblem.reward_graded?.length || 0
-    const pointsPerGrade = SCORE_LEVELS[scoreLevel]
-
+  let completedGrades = 0
+  
+  // Non-graded emblems: MaxGrade is always one but even when completed=true, Grade stays at 0. So we really just look at maxGrade for the multiplier
+  // points only when Completed = true
+  if (maxGrade === 1) {
+    completedGrades = emblem.Completed ? 1 : 0
+  }
     // Specific Rare issue here. emblem.Grade actually is the one being worked TOWARDS. Meaning if it's 4, you completed 3
     // except if you completed the max grade e.g. 5, emblem.Grade will remain at 5.
     // meaning we have to do -1 on the current Grade to get which one you completed, except if you completed the whole emblem
-    // in which case we don't do -1, we keep it as is (cause it's the same as maxGrade anyway)
-    const isCompleted = emblem.Completed
-    const completedGrades = isCompleted ? maxGrade : Math.max(Grade - 1, 0)
-    
-    return {
-      current: pointsPerGrade * completedGrades,
-      maximum: pointsPerGrade * maxGrade
+  else {
+    // If we're at max grade AND completed, count all grades
+    if (Grade === maxGrade && emblem.Completed) {
+      completedGrades = maxGrade
+    } 
+    // Otherwise, Grade is what we're working towards, so we take Grade - 1
+    else {
+      completedGrades = Math.max(Grade - 1, 0)
     }
   }
-  return { current: 0, maximum: 0 }
+  
+  return {
+    current: pointsPerGrade * completedGrades,
+    maximum: pointsPerGrade * maxGrade
+  }
 }
 
 // general function for how to calculate the score for normal factions
