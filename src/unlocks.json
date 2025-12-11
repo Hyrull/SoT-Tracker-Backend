@@ -931,6 +931,106 @@
   },
   "BilgeRats": {
     "Campaigns": {
+      "secrets-of-the-banished": {
+        "Emblems": [
+          {
+            "DisplayName": "Hunting the Banished",
+            "scoreLevel": 1
+          },
+          {
+            "DisplayName": "Boom of the Banished",
+            "scoreLevel": 1
+          },
+          {
+            "DisplayName": "Trident Takedown",
+            "scoreLevel": 1
+          },
+          {
+            "DisplayName": "Nice Try",
+            "scoreLevel": 1
+          },
+          {
+            "DisplayName": "Flame of the Forgotten",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the 'Effigy of Rage' trinket for purchase.",
+            "scoreLevel": 1
+          },
+          {
+            "DisplayName": "Eternal Fighter",
+            "scoreLevel": 1
+          },
+          {
+            "DisplayName": "Eternal Warrior",
+            "scoreLevel": 2
+          },
+          {
+            "DisplayName": "Robber of the Sanctuary of the Veil",
+            "scoreLevel": 1
+          },
+          {
+            "DisplayName": "Plunderer of the Sanctuary of the Dark Widow",
+            "scoreLevel": 1
+          },
+          {
+            "DisplayName": "Looter of the Sanctuary of the Unending Flame",
+            "scoreLevel": 1
+          },
+          {
+            "DisplayName": "Thief of the Banished Ancients",
+            "scoreLevel": 2
+          },
+          {
+            "DisplayName": "Sanctuary Invader",
+            "scoreLevel": 2
+          },
+          {
+            "DisplayName": "Provisioner of Banished Keys",
+            "scoreLevel": 1
+          },
+          {
+            "DisplayName": "Trader of Banished Tablets",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the Saltbone Elias' Hook and Laughing Fox Lucia's Mask for purchase.",
+            "scoreLevel": 1
+          },
+          {
+            "DisplayName": "Bringer of Banished Ancient Tribute",
+            "scoreLevel": 1
+          },
+          {
+            "DisplayName": "Diviner of Banished Ancient Secrets",
+            "scoreLevel": 1
+          },
+          {
+            "DisplayName": "Merchant of Banished Ancient Knowledge",
+            "scoreLevel": 1
+          },
+          {
+            "DisplayName": "Hunter of Banished Ancient Goods",
+            "scoreLevel": 1
+          },
+          {
+            "DisplayName": "Seeker of Banished Relics",
+            "scoreLevel": 1
+          },
+          {
+            "DisplayName": "Master of Banished Treasures",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the Chest of Banished Tribute Disguise for purchase.",
+            "scoreLevel": 2
+          },
+          {
+            "DisplayName": "Contrabandists' Crooked Chronicles",
+            "scoreLevel": 1
+          },
+          {
+            "DisplayName": "Master of Banished Ancient Secrets",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the Mark of the Widow Tattoo for purchase.",
+            "scoreLevel": 3
+          }
+        ]
+      },
       "smugglers'-tide": {
         "Emblems": [
           {
