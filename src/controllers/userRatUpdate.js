@@ -1,6 +1,7 @@
-const User = require('../models/user')
+import { logger } from "../lib/logger.js"
+import User from "../models/user.js"
 
-const userRatUpdate = async (req, res) => {
+export const userRatUpdate = async (req, res) => {
 
   const ratToken = req.body.ratToken
 
@@ -19,10 +20,10 @@ const userRatUpdate = async (req, res) => {
     // Update the user's ratToken
     user.ratToken = ratToken
     await user.save()
+    logger.success("RAT Token successfully updated!")
     return res.status(201).json({ message: 'Rat token updated successfully' })
   } catch (err) {
+    logger.error("Couldn't update the rat - ", err)
     res.status(500).json({ message: 'Error updating rat token' })
   }
 }
-
-module.exports = { userRatUpdate }

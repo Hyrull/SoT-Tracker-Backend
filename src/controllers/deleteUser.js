@@ -1,8 +1,9 @@
-const bcrypt = require('bcrypt')
-const User = require('../models/user.js')
-const UserData = require('../models/userData.js')
+import { compare } from 'bcrypt'
+import User from '../models/user.js'
+import UserData from '../models/userData.js'
+import { logger } from '../lib/logger.js'
 
-const deleteUser = async (req, res) => {
+export const deleteUser = async (req, res) => {
 
   
   try {
@@ -16,7 +17,7 @@ const deleteUser = async (req, res) => {
       return res.status(400).json({ message: 'You must enter a password for this operation.' });
     }
 
-    const validPassword = await bcrypt.compare(req.body.password, deletingUserProfile.password)
+    const validPassword = await compare(req.body.password, deletingUserProfile.password)
     if (!validPassword) {
       return res.status(401).json({ message: 'Incorrect password!' })
     }
@@ -34,8 +35,7 @@ const deleteUser = async (req, res) => {
     res.status(200).json({ message: 'User and user data successfully deleted.' })
 
   } catch (error) {
+    logger.error("Couldn't delete user account: ", error)
     res.status(500).json({ message: `Error deleting user's data: ${error}` })
   }
 }
-
-module.exports = { deleteUser }

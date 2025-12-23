@@ -1,6 +1,7 @@
-const UserData = require('../models/userData.js')
+import { logger } from '../lib/logger.js'
+import UserData from '../models/userData.js'
 
-const ledgerDataGet = async (req, res) => {
+export const ledgerDataGet = async (req, res) => {
   const userId = req.auth.userId
   try {
     const user = await UserData.findOne({ userId })
@@ -11,8 +12,7 @@ const ledgerDataGet = async (req, res) => {
     return res.status(200).json(user.sotLedgers)
   
   } catch (error) {
+    logger.error("Error fetching ledger data: ", error)
     res.status(500).json({ message: 'Error fetching your ledger data' })
   }
 }
-
-module.exports = { ledgerDataGet }

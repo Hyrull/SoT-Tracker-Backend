@@ -1,6 +1,7 @@
-const UserData = require('../models/userData.js')
+import { logger } from '../lib/logger.js'
+import UserData from '../models/userData.js'
 
-const emblemListGet = async (req, res) => {
+export const emblemListGet = async (req, res) => {
   const userId = req.auth.userId
   try {
     const user = await UserData.findOne({ userId })
@@ -15,14 +16,14 @@ const emblemListGet = async (req, res) => {
     return res.status(200).json(user.sotData)
   
   } catch (error) {
-    console.error('Error fetching commendations:', error)
+    logger.error('Error fetching commendations:', error)
     res.status(500).json({ message: 'Error fetching your commendations' })
   }
 }
 
 
 // Same thing as above except it's for internal use and not an HTTP response
-const getUserEmblems = async (userId) => {
+export const getUserEmblems = async (userId) => {
   const user = await UserData.findOne({ userId })
   
   if (!user) {
@@ -35,5 +36,3 @@ const getUserEmblems = async (userId) => {
 
   return user.sotData
 }
-
-module.exports = { emblemListGet, getUserEmblems }

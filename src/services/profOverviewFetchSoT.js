@@ -1,4 +1,5 @@
-const axios = require('axios')
+import { logger } from "../lib/logger.js"
+import axios from "axios"
 
 const API_URL = 'https://www.seaofthieves.com/api/profilev2/overview'
 
@@ -8,8 +9,8 @@ const API_URL = 'https://www.seaofthieves.com/api/profilev2/overview'
  * @returns {Promise<object>} - The reputation data
  */
 
-const fetchOverviewData = async (ratToken) => {
-  console.log('Fetching profile overview data...')
+export const fetchOverviewData = async (ratToken) => {
+  logger.info('Fetching profile overview data...')
   try {
     const response = await axios.get(API_URL, {
       headers: {
@@ -28,13 +29,11 @@ const fetchOverviewData = async (ratToken) => {
   } catch (err) {
     if (err.response && err.response.status === 302 && err.response.headers.location?.includes('/logout')
     ) {
-      console.error('Redirect loop detected! Out of date rat token: ', err)
+      logger.warn('Redirect loop detected! Out of date rat token?')
       throw { type: 'InvalidRatToken', message: 'Invalid rat token, please update it.' }
       } else {
-      console.error('Error fetching reputation data:', err)
+      logger.error('Error fetching reputation data:', err)
       throw { type: 'FetchError', message: 'Error fetching profile overview data.' }
     }
   }
 }
-
-module.exports = { fetchOverviewData }

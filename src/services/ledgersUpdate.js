@@ -1,4 +1,5 @@
-const { fetchLedgersData } = require('./ledgersFetchSoT')
+import { logger } from '../lib/logger.js'
+import { fetchLedgersData } from './ledgersFetchSoT.js'
 
 const ledgerFactions = [
   'GoldHoarders',
@@ -13,7 +14,7 @@ const ledgerFactions = [
 async function withRetry(fn, faction, retries = 3) {
   let lastErr
   for (let i = 0; i < retries; i++) {
-    console.log(`Attempt ${i + 1} for faction ${faction}`)
+    logger.info(`Attempt ${i + 1} for faction ${faction}`)
     try {
       return await fn()
     } catch (err) {
@@ -27,14 +28,14 @@ async function withRetry(fn, faction, retries = 3) {
   throw lastErr
 }
 
-async function ledgersUpdate(ratToken) {
+export async function ledgersUpdate(ratToken) {
 
   // Using the promises way to fetch all ledgers at once
   const ledgerPromises = ledgerFactions.map(faction =>
     withRetry(() => fetchLedgersData(ratToken, faction), faction, 3)
       .then(data => ({ faction, data }))
       .catch(err => {
-        console.warn(`Failed to fetch ledger for ${faction}:`, err.message)
+        logger.warn(`Failed to fetch ledger for ${faction}:`, err.message)
         return null
       })
   )
@@ -50,8 +51,5 @@ async function ledgersUpdate(ratToken) {
     }
   }
 
-  console.log(ledgers)
   return ledgers
 }
-
-module.exports = { ledgersUpdate }

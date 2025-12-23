@@ -1,16 +1,17 @@
-require('dotenv').config()
-const express = require('express')
-const mongoose = require('mongoose')
-const dataRoutes = require('./routes/dataRoutes')
-const userRoutes = require('./routes/userRoutes')
+import 'dotenv/config'
+import express, { json } from 'express'
+import { connect } from 'mongoose'
+import { logger } from './lib/logger.js'
+import dataRoutes from './routes/dataRoutes.js'
+import userRoutes from './routes/userRoutes.js'
 
 const app = express()
 
-mongoose.connect(process.env.MONGODB_LOGIN)
-.then(() => console.log('Connected to MongoDB!'))
-.catch((err) => console.log('Connection to MongoDB failed! Error: ', err))
+connect(process.env.MONGODB_LOGIN)
+.then(() => logger.success('Connected to MongoDB!'))
+.catch((err) => logger.error('Connection to MongoDB failed! Error: ', err))
 
-app.use(express.json())
+app.use(json())
 
 app.use((req, res, next) => {
   res.setHeader('Access-Control-Allow-Origin', '*');
@@ -23,4 +24,4 @@ app.use((req, res, next) => {
 app.use('/api/data', dataRoutes)
 app.use('/api/auth', userRoutes)
 
-module.exports = app
+export default app

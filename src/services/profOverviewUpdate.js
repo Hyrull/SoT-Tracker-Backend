@@ -1,8 +1,6 @@
-const { fetchOverviewData } = require('./profOverviewFetchSoT')
+import { fetchOverviewData } from './profOverviewFetchSoT.js'
 
-async function profOverviewUpdate(ratToken) {
+export async function profOverviewUpdate(ratToken) {
   const overview = fetchOverviewData(ratToken)
   return overview
 }
-
-module.exports = { profOverviewUpdate }

@@ -1,14 +1,16 @@
-const User = require('../models/user')
-const UserData = require('../models/userData')
+import { logger } from '../lib/logger.js'
 
-const { emblemUpdate } = require('../services/emblemUpdate')
-const { ledgersUpdate } = require('../services/ledgersUpdate')
-const { profOverviewUpdate } = require('../services/profOverviewUpdate')
-const { calculateAndSaveScore } = require('../services/calculateAndSaveScore')
+import User from '../models/user.js'
+import UserData from '../models/userData.js'
+
+import { emblemUpdate } from '../services/emblemUpdate.js'
+import { ledgersUpdate } from '../services/ledgersUpdate.js'
+import { profOverviewUpdate } from '../services/profOverviewUpdate.js'
+import { calculateAndSaveScore } from '../services/calculateAndSaveScore.js'
 
 
 
-const dataUpdate = async (req, res) => {
+export const dataUpdate = async (req, res) => {
   try {
     const user = await User.findById(req.auth.userId)
     if (!user) return res.status(404).json({ message: 'Please log out and log in again.' })
@@ -51,12 +53,14 @@ const dataUpdate = async (req, res) => {
 
     await userData.save()
 
+    logger.success('SoT Data refreshed successfully!')
+
     res.status(201).json({ 
       message: 'Data updated successfully!',
       score: userData.score // not sure i'll use this in the frontend because of how i structured react (score will be a useContext, rest is called in a page) but who knows
     })
   } catch (err) {
-    console.error('Error in dataUpdate:', err)
+    logger.error('Error in dataUpdate:', err)
     if (err.type === 'InvalidRatToken') {
       res.status(401).json({ error: err.message })
     } else if (err.type === 'FetchError') {
@@ -66,5 +70,3 @@ const dataUpdate = async (req, res) => {
     }
   }
 }
-
-module.exports = { dataUpdate }

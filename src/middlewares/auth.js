@@ -1,11 +1,12 @@
-const jwt = require('jsonwebtoken')
+import jwt from 'jsonwebtoken'
+const { verify } = jwt
 
-module.exports = (req, res, next) => {
+export default (req, res, next) => {
   try {
 
     // Extract the token from the Authorization header
     const token = req.headers.authorization.split(' ')[1]
-    const decoded = jwt.verify(token, process.env.JWT_SECRET)
+    const decoded = verify(token, process.env.JWT_SECRET)
 
     req.auth = { 
       userId: decoded.userId,

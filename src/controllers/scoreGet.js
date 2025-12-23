@@ -1,7 +1,7 @@
-// controllers/scoreGet.js
-const UserData = require('../models/userData')
+import { logger } from '../lib/logger.js'
+import UserData from '../models/userData.js'
 
-const scoreGet = async (req, res) => {
+export const scoreGet = async (req, res) => {
   const userId = req.auth.userId
   const username = req.auth.nickname
   
@@ -19,7 +19,7 @@ const scoreGet = async (req, res) => {
         success: true,
         currentScore: 0,
         maximumScore: 0,
-        percentage: 0 // probably won't use it, but good to have
+        percentage: 0
       })
     }
 
@@ -41,16 +41,14 @@ const scoreGet = async (req, res) => {
       success: true,
       currentScore,
       maximumScore,
-      percentage // probably won't use it, but good to have
+      percentage
     })
     
   } catch (error) {
-    console.error('Error fetching score:', error)
+    logger.error('Error fetching score:', error)
     return res.status(500).json({
       success: false,
       error: 'Failed to fetch score'
     })
   }
 }
-
-module.exports = { scoreGet }

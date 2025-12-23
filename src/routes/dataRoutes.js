@@ -1,20 +1,20 @@
-const express = require('express')
-const router = express.Router()
-const dataUpdateCtrl = require('../controllers/dataUpdate')
-const emblemListCtrl = require('../controllers/emblemListGet')
-const overviewDataCtrl = require('../controllers/overviewDataGet')
-const ledgerDataCtrl = require('../controllers/ledgerDataGet')
-const pinnedCtrl = require('../controllers/data/pinnedController')
-const scoreGetCtrl = require('../controllers/scoreGet')
-const auth = require('../middlewares/auth')
+const router = Router()
+import { Router } from 'express'
+import { dataUpdate } from '../controllers/dataUpdate.js'
+import { emblemListGet } from '../controllers/emblemListGet.js'
+import { overviewDataGet } from '../controllers/overviewDataGet.js'
+import { ledgerDataGet } from '../controllers/ledgerDataGet.js'
+import { getPinned, addPinned, removePinned } from '../controllers/data/pinnedController.js'
+import { scoreGet } from '../controllers/scoreGet.js'
+import auth from '../middlewares/auth.js'
 
-router.get('/emblems', auth, emblemListCtrl.emblemListGet)
-router.get('/overview', auth, overviewDataCtrl.overviewDataGet)
-router.get('/ledgers', auth, ledgerDataCtrl.ledgerDataGet)
-router.patch('/update', auth, dataUpdateCtrl.dataUpdate)
-router.get('/pinned', auth, pinnedCtrl.getPinned)
-router.post('/pinned', auth, pinnedCtrl.addPinned)
-router.delete('/pinned', auth, pinnedCtrl.removePinned)
-router.get('/score', auth, scoreGetCtrl.scoreGet )
+router.get('/emblems', auth, emblemListGet)
+router.get('/overview', auth, overviewDataGet)
+router.get('/ledgers', auth, ledgerDataGet)
+router.patch('/update', auth, dataUpdate)
+router.get('/pinned', auth, getPinned)
+router.post('/pinned', auth, addPinned)
+router.delete('/pinned', auth, removePinned)
+router.get('/score', auth, scoreGet )
 
-module.exports = router
+export default router

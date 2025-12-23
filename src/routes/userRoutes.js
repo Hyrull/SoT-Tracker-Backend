@@ -1,14 +1,14 @@
-const express = require('express')
-const router =  express.Router()
-const auth = require('../middlewares/auth')
-const userCtrl = require('../controllers/user')
-const userRatCtrl = require('../controllers/userRatUpdate')
-const userDeleteCtrl = require('../controllers/deleteUser')
+import { Router } from 'express'
+const router =  Router()
+import auth from '../middlewares/auth.js'
+import { signup, login } from '../controllers/user.js'
+import { userRatUpdate } from '../controllers/userRatUpdate.js'
+import { deleteUser } from '../controllers/deleteUser.js'
 
-router.post('/signup', userCtrl.signup)
-router.post('/login', userCtrl.login)
-router.patch('/ratUpdate', auth, userRatCtrl.userRatUpdate)
-router.delete('/delete', auth, userDeleteCtrl.deleteUser)
+router.post('/signup', signup)
+router.post('/login', login)
+router.patch('/ratUpdate', auth, userRatUpdate)
+router.delete('/delete', auth, deleteUser)
 
 
-module.exports = router
+export default router

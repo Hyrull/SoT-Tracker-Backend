@@ -1,6 +1,7 @@
-const _ = require('lodash')
-const { fetchReputationData } = require('./emblemFetchSoT')
-const unlocks = require('../unlocks.json')
+import lodash from 'lodash'
+const { mergeWith } = lodash
+import { fetchReputationData } from './emblemFetchSoT.js'
+import unlocks from './../unlocks.json' with { type: 'json' }
 
 const factionOrder = [
   'TallTales',
@@ -17,7 +18,7 @@ const factionOrder = [
   'Flameheart',
 ]
 
-async function emblemUpdate(ratToken) {
+export async function emblemUpdate(ratToken) {
   const data = await fetchReputationData(ratToken)
   if (!data || Object.keys(data).length === 0) {
     throw new Error('No commendation data returned.')
@@ -33,7 +34,7 @@ async function emblemUpdate(ratToken) {
     }
   }
 
-  const mergedData = _.mergeWith({}, data, unlocks, mergeEmblems)
+  const mergedData = mergeWith({}, data, unlocks, mergeEmblems)
 
   // Sorting the factions
   const sortedData = Object.fromEntries(
@@ -46,5 +47,3 @@ async function emblemUpdate(ratToken) {
 
   return sortedData
 }
-
-module.exports = { emblemUpdate }

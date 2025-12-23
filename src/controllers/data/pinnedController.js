@@ -1,7 +1,8 @@
-const UserData = require('../../models/userData')
+import { logger } from '../../lib/logger.js'
+import UserData from '../../models/userData.js'
 
 // fetching pins
-exports.getPinned = async (req, res) => {
+export const getPinned = async (req, res) => {
   try {
     const user = await UserData.findOne({ userId: req.auth.userId })
 
@@ -22,7 +23,7 @@ exports.getPinned = async (req, res) => {
     
     res.status(200).json({ pinned: user.pinned })
   } catch (error) {
-    console.error('Error fetching pinned:', error)
+    logger.error('Error fetching pinned:', error)
     res.status(500).json({ error: 'Internal server error' })
   }
 }
@@ -32,7 +33,7 @@ exports.getPinned = async (req, res) => {
 
 
 
-exports.addPinned = async (req, res) => {
+export const addPinned = async (req, res) => {
   try {
     const { faction, emblem, campaign } = req.body
 
@@ -76,7 +77,7 @@ exports.addPinned = async (req, res) => {
       pinned: user.pinned 
     })
   } catch(error) {
-    console.error('Error adding pinned:', error)
+    logger.error('Error adding pinned:', error)
     res.status(500).json({ error: 'Internal server error' })
   }
 }
@@ -84,7 +85,7 @@ exports.addPinned = async (req, res) => {
 
 
 
-exports.removePinned = async (req, res) => {
+export const removePinned = async (req, res) => {
   try {
     const { faction, emblem, campaign } = req.body
 
@@ -138,7 +139,7 @@ exports.removePinned = async (req, res) => {
       pinned: user.pinned 
     })
     } catch(error) {
-      console.error("Error removing pinned: " + error)
+      logger.error("Error removing pinned: " + error)
     res.status(500).json({ error: 'Internal server error' })
   }
 }

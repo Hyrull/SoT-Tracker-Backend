@@ -8,7 +8,7 @@ const SCORE_LEVELS = {
   6: 100
 }
 
-const calculateEmblemScore = (emblem) => {
+export const calculateEmblemScore = (emblem) => {
   const scoreLevel = emblem['scoreLevel']
   if (!scoreLevel || !SCORE_LEVELS[scoreLevel]) {
     return { current: 0, maximum: 0 }
@@ -112,7 +112,7 @@ const calculateScore = (factionData) => {
   return { currentScore, maximumScore }
 }
 
-const calculateAndSaveScore = async (userData) => {
+export const calculateAndSaveScore = async (userData) => {
   if (!userData.sotData) {
     userData.score = { current: 0, maximum: 0 }
     return
@@ -130,5 +130,3 @@ const calculateAndSaveScore = async (userData) => {
     maximum: maximumScore
   }
 }
-
-module.exports = { calculateAndSaveScore }

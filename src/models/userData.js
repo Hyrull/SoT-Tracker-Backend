@@ -1,12 +1,12 @@
-const mongoose = require('mongoose')
+import { Schema, model } from 'mongoose'
 
-const pinnedSchema = new mongoose.Schema({
+const pinnedSchema = new Schema({
     faction: { type: String, required: true },
     emblem: { type: String, required: true },
     campaign: { type: String, required: false }
 }, { _id: false }) // we dont need subid for every pinned emblem
 
-const userDataSchema = mongoose.Schema({
+const userDataSchema = Schema({
     userId: {
         type: String,
         required: true,
@@ -14,17 +14,17 @@ const userDataSchema = mongoose.Schema({
     },
     sotData: {
         type: Map,
-        of: mongoose.Schema.Types.Mixed,
+        of: Schema.Types.Mixed,
         required: false,
     },
     sotLedgers: {
         type: Map,
-        of: mongoose.Schema.Types.Mixed,
+        of: Schema.Types.Mixed,
         required: false,
     },
     overview: {
     type: Map,
-    of: mongoose.Schema.Types.Mixed,
+    of: Schema.Types.Mixed,
     required: false,
     },
     pinned: {
@@ -55,4 +55,4 @@ const userDataSchema = mongoose.Schema({
     }
 })
 
-module.exports = mongoose.model('UserData', userDataSchema)
+export default model('UserData', userDataSchema)
