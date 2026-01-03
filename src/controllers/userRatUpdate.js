@@ -1,4 +1,5 @@
 import { logger } from "../lib/logger.js"
+import { encrypt } from "../lib/crypto.js"
 import User from "../models/user.js"
 
 export const userRatUpdate = async (req, res) => {
@@ -9,6 +10,8 @@ export const userRatUpdate = async (req, res) => {
     return res.status(400).json({ message: "No 'ratToken' entered." })
   }
 
+  const encryptedRat = encrypt(ratToken)
+
   try {
     // Fetch the user from the database
     const user = await User.findById(req.auth.userId)
@@ -18,7 +21,7 @@ export const userRatUpdate = async (req, res) => {
     }
 
     // Update the user's ratToken
-    user.ratToken = ratToken
+    user.ratToken = encryptedRat
     await user.save()
     logger.success("RAT Token successfully updated!")
     return res.status(201).json({ message: 'Rat token updated successfully' })

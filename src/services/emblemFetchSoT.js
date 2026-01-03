@@ -32,7 +32,7 @@ export const fetchReputationData = async (ratToken) => {
       logger.warn('Redirect loop detected! Out of date rat token.')
       throw { type: 'InvalidRatToken', message: 'Invalid rat token, please update it.' }
       } else {
-      logger.error('Error fetching reputation data:', err)
+      logger.error('Error fetching reputation data:')
       throw { type: 'FetchError', message: 'Error fetching reputation data.' }
     }
   }

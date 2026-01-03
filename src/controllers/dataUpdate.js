@@ -1,10 +1,11 @@
 import { logger } from '../lib/logger.js'
+import { decrypt } from '../lib/crypto.js'
 
 import User from '../models/user.js'
 import UserData from '../models/userData.js'
 
 import { emblemUpdate } from '../services/emblemUpdate.js'
-import { ledgersUpdate } from '../services/ledgersUpdate.js'
+// import { ledgersUpdate } from '../services/ledgersUpdate.js'
 import { profOverviewUpdate } from '../services/profOverviewUpdate.js'
 import { calculateAndSaveScore } from '../services/calculateAndSaveScore.js'
 
@@ -18,12 +19,14 @@ export const dataUpdate = async (req, res) => {
     const ratToken = user.ratToken
     if (!ratToken) return res.status(400).json({ message: 'No RAT token found.' })
 
+    const decryptedRat = decrypt(ratToken)
+
 
       // Calling the services to update it all
     const [commendations, ledgers, overview] = await Promise.all([
-      emblemUpdate(ratToken),
-      // ledgersUpdate(ratToken),
-      profOverviewUpdate(ratToken)
+      emblemUpdate(decryptedRat),
+      // ledgersUpdate(decryptedRat),
+      profOverviewUpdate(decryptedRat)
     ])
 
      // Get to the right user data
