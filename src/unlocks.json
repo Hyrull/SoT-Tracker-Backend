@@ -2557,6 +2557,10 @@
               {
                 "grade": 9,
                 "reward": "Unlocks the Regal Fortune Lantern, Spyglass, Compass and Bucket for purchase."
+              },
+              {
+                "grade": 10,
+                "reward": "Unlocks the Regal Fortune Fishing Rod, Shovel, Pocket Watch, Tankard and Speaking Trumpet for purchase."
               }
             ],
             "scoreLevel": 3
@@ -2600,7 +2604,12 @@
               {
                 "grade": 9,
                 "reward": "Unlocks the Regal Fortune Banjo and Drum for purchase."
+              },
+              {
+                "grade": 10,
+                "reward": "Unlocks the Regal Fortune Hurdy-Gurdy and Concertina for purchase."
               }
+              
             ],
             "scoreLevel": 3
           }
