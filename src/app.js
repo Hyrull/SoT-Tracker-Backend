@@ -24,8 +24,8 @@ app.use((req, res, next) => {
 app.use('/api/data', dataRoutes)
 app.use('/api/auth', userRoutes)
 
-// HEALTH CHECK PING | doesn't deserve its own route/controller just for this
-app.get('/health', (req, res) => {
+// HEALTH CHECK PING
+app.get('/api/health', (req, res) => {
   res.status(200).send('OK')
 })
 
