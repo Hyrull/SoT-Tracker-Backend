@@ -1028,6 +1028,10 @@
             "rewardType": "atCompletion",
             "reward": "Unlocks the Mark of the Widow Tattoo for purchase.",
             "scoreLevel": 3
+          },
+          {
+            "DisplayName": "Smuggler of Banished Keys",
+            "scoreLevel": 1
           }
         ]
       },
