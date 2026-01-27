@@ -43,9 +43,9 @@ export const dataUpdate = async (req, res) => {
 
 
     // Updating ledgers data
-    for (const [faction, data] of Object.entries(ledgers)) {
-      userData.sotLedgers.set(faction, data)
-    }
+    // for (const [faction, data] of Object.entries(ledgers)) {
+    //   userData.sotLedgers.set(faction, data)
+    // }
     userData.lastUpdated = new Date().toISOString()
 
     // Updating overview data
@@ -64,6 +64,15 @@ export const dataUpdate = async (req, res) => {
     })
   } catch (err) {
     logger.error('Error in dataUpdate:', err)
+
+    if (err.statusCode) {
+      // sometimes SoT's API fails and that part is to let us know about it
+      return res.status(err.statusCode).json({ 
+        error: err.message,
+        isUpstream: true
+      })
+    }
+
     if (err.type === 'InvalidRatToken') {
       res.status(401).json({ error: err.message })
     } else if (err.type === 'FetchError') {

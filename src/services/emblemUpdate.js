@@ -19,7 +19,23 @@ const factionOrder = [
 ]
 
 export async function emblemUpdate(ratToken) {
-  const data = await fetchReputationData(ratToken)
+  let data
+
+  // using try/catch now because their api is sometimes down (would you believe that)
+  try {
+    data = await fetchReputationData(ratToken)
+  } catch (error) {
+    if (error.response && error.response.status >= 500) {
+      console.warn('Sea of Thieves API is down (5xx).')
+      
+      const sotError = new Error('SoT API Down')
+      sotError.statusCode = 502
+      throw sotError
+    }
+    // throwing other errors (like 401 Auth) to be handled normally
+    throw error
+  }
+
   if (!data || Object.keys(data).length === 0) {
     throw new Error('No commendation data returned.')
   }
