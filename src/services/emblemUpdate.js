@@ -29,7 +29,7 @@ export async function emblemUpdate(ratToken) {
       console.warn('Sea of Thieves API is down (5xx).')
       
       const sotError = new Error('SoT API Down')
-      sotError.statusCode = 502
+      sotError.statusCode = 503
       throw sotError
     }
     // throwing other errors (like 401 Auth) to be handled normally
