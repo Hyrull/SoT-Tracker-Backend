@@ -1032,6 +1032,126 @@
           {
             "DisplayName": "Smuggler of Banished Keys",
             "scoreLevel": 1
+          },
+          {
+            "DisplayName": "Dark Widow Decipherer",
+            "scoreLevel": 1
+          },
+          {
+            "DisplayName": "Veil Viewer",
+            "scoreLevel": 1
+          },
+          {
+            "DisplayName": "Finder of the Unending Flame",
+            "scoreLevel": 1
+          },
+          {
+            "DisplayName": "Know It All",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the 'The Ghostly Writer' painting for purchase.",
+            "scoreLevel": 2
+          },
+          {
+            "DisplayName": "Ducal Disciple",
+            "scoreLevel": 2
+          },
+          {
+            "DisplayName": "Garrison Champion",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the Dark Skies Cutlass for purchase.",
+            "scoreLevel": 1
+          },
+          {
+            "DisplayName": "Garrison Conqueror",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the Dark Skies Pistol for purchase.",
+            "scoreLevel": 1
+          },
+          {
+            "DisplayName": "Ashen Oar Rival",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the Dark Skies Double Barrel Pistol for purchase.",
+            "scoreLevel": 1
+          },
+          {
+            "DisplayName": "Compartment Crook",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the Dark Skies Throwing Knives for purchase.",
+            "scoreLevel": 1
+          },
+          {
+            "DisplayName": "Garrison Gladiator",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the Dark Skies Blunderbuss for purchase.",
+            "scoreLevel": 1
+          },
+          {
+            "DisplayName": "Open Up!",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the Dark Skies Grapple Gun for purchase.",
+            "scoreLevel": 1
+          },
+          {
+            "DisplayName": "Custodian? More Like Dust-odian!",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the Dark Skies Eye of Reach for purchase.",
+            "scoreLevel": 1
+          },
+          {
+            "DisplayName": "Winning with Twinning",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the Dark Skies Blowpipe for purchase.",
+            "scoreLevel": 1
+          },
+          {
+            "DisplayName": "An Oath Fulfilled",
+            "rewardType": "perGrade",
+            "reward_graded": [
+              {
+                "grade": 1,
+                "reward": "Unlocks the Dark Skies Cannons for purchase."
+              },
+              {
+                "grade": 2,
+                "reward": "Unlocks the Dark Skies Figurehead for purchase."
+              },
+              {
+                "grade": 3,
+                "reward": "Unlocks the Dark Skies Hull for purchase."
+              }
+            ],
+            "scoreLevel": 1
+          },
+          {
+            "DisplayName": "My Cup Runneth Over",
+            "rewardType": "perGrade",
+            "reward_graded": [
+              {
+                "grade": 1,
+                "reward": "Unlocks the Dark Skies Flag for purchase."
+              },
+              {
+                "grade": 2,
+                "reward": "Unlocks the Dark Skies Wheel for purchase."
+              },
+              {
+                "grade": 3,
+                "reward": "Unlocks the Dark Skies Capstan for purchase."
+              }
+            ],
+            "scoreLevel": 1
+          },
+          {
+            "DisplayName": "Lighthouse Log Vendor",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the Dark Skies Sails for purchase.",
+            "scoreLevel": 2
+          },
+          {
+            "DisplayName": "Volcanic Victorious",
+            "rewardType": "atCompletion",
+            "reward": "Rewards the 'Garrison Gatecrasher' title, and unlocks the Forsaken Ashes Makeup for purchase.",
+            "scoreLevel": 3
           }
         ]
       },
