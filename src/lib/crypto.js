@@ -1,9 +1,11 @@
 import crypto from 'crypto'
 
+if (!process.env.RAT_ENCRYPTION_KEY || process.env.RAT_ENCRYPTION_KEY.length !== 32) {
+  throw new Error('FATAL: RAT_ENCRYPTION_KEY is missing or invalid in .env. Must be exactly 32 characters.')
+}
+
 const algorithm = 'aes-256-cbc'
-// This must be 32 characters long. Put it in your .env file!
-// Example .env: RAT_ENCRYPTION_KEY=12345678901234567890123456789012
-const key = Buffer.from(process.env.RAT_ENCRYPTION_KEY || '', 'utf8')
+const key = Buffer.from(process.env.RAT_ENCRYPTION_KEY, 'utf8')
 const ivLength = 16
 
 export const encrypt = (text) => {
