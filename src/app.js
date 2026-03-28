@@ -17,8 +17,8 @@ app.use(json())
 +app.use(cors({
   origin: [
     'http://localhost:5173',
-    process.env.FRONTEND_URL || 'https://www.sot-tracker.com',
-    'https://sot-tracker.com'
+    process.env.FRONTEND_URL || 'https://sot-tracker.com',
+    'http://sot-tracker.com'
   ].filter(Boolean)
 }))
 
