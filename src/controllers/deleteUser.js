@@ -29,8 +29,7 @@ export const deleteUser = async (req, res) => {
       return res.status(404).json({ message: 'User data not found' })
     }
 
-    await deletingUserProfile.deleteOne()
-    await deletingUserData.deleteOne()
+    await deletingUserProfile.deleteOne(), deletingUserData.deleteOne()
 
     res.status(200).json({ message: 'User and user data successfully deleted.' })
 

@@ -1,5 +1,6 @@
 import 'dotenv/config'
 import express, { json } from 'express'
+import cors from 'cors'
 import { connect } from 'mongoose'
 import { logger } from './lib/logger.js'
 import dataRoutes from './routes/dataRoutes.js'
@@ -13,12 +14,13 @@ connect(process.env.MONGODB_LOGIN)
 
 app.use(json())
 
-app.use((req, res, next) => {
-  res.setHeader('Access-Control-Allow-Origin', '*');
-  res.setHeader('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content, Accept, Content-Type, Authorization')
-  res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, PATCH, OPTIONS')
-  next()
-})
++app.use(cors({
+  origin: [
+    'http://localhost:5173',
+    process.env.FRONTEND_URL || 'https://www.sot-tracker.com',
+    'https://sot-tracker.com'
+  ].filter(Boolean)
+}))
 
 // ROUTES
 app.use('/api/data', dataRoutes)
