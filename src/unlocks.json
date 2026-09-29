@@ -931,6 +931,57 @@
   },
   "BilgeRats": {
     "Campaigns": {
+      "last-ship-standing": {
+        "Emblems": [
+          {
+            "DisplayName": "Conqueror of the Damned",
+            "rewardType": "perGrade",
+            "reward_graded": [
+              {
+                "grade": 1,
+                "reward": "Unlocks the Fallen Sea Dog Pocket Watch, Eye of Reach and Belt for purchase."
+              },
+              {
+                "grade": 2,
+                "reward": "Unlocks the Fallen Sea Dog Blunderbuss, Jacket, Eyepatch and Dress for purchase."
+              },
+              {
+                "grade": 3,
+                "reward": "Unlocks the Fallen Seadog Spyglass, Pistol, Fishing Rod and Tankard for purchase."
+              },
+              {
+                "grade": 4,
+                "reward": "Unlocks the Fallen Sea Dog Double Barrel Pistol, Bucket, Speaking Trumpet and Pegleg for purchase."
+              },
+              {
+                "grade": 5,
+                "reward": "Unlocks the Fallen Sea Dog Shovel. Cutlass, Gloves and Hook for purchase."
+              },
+              {
+                "grade": 6,
+                "reward": "Unlocks the Fallen Sea Dog Cannons,Banjo, Concertina and Boots for purchase."
+              },
+              {
+                "grade": 7,
+                "reward": "Unlocks the Fallen Sea Dog Wheel, Drum, Hurdy-Gurdy and Trousers for purchase."
+              },
+              {
+                "grade": 8,
+                "reward": "Unlocks the Fallen Sea Dog Rapier. Capstan and Hull for purchase."
+              },
+              {
+                "grade": 9,
+                "reward": "Unlocks the Fallen Sea Dog Compass, and Hat for purchase ."
+              },
+              {
+                "grade": 10,
+                "reward": "Unlocks the Fallen Sea Dog Heavy Sword, Flag and Figurehead for purchase."
+              }
+            ],
+            "scoreLevel": 3
+          }
+        ]
+      },
       "secrets-of-the-banished": {
         "Emblems": [
           {
@@ -2743,6 +2794,12 @@
         "Emblems": [
           {
             "DisplayName": "The Fallen Sea Dog",
+            "scoreLevel": 3
+          },
+          {
+            "DisplayName": "Friends in High Places",
+            "rewardType": "atCompletion",
+            "reward": "Unlocks the Gift of the Widow Curse.",
             "scoreLevel": 3
           }
         ]
